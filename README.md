@@ -9,15 +9,15 @@ This repository contains helpful guides for creating compatible configuration to
 - [Unreal Engine 4.26](https://www.unrealengine.com/en-US/blog/unreal-engine-4-26-released) (for creating outfit mods)
 
 
-## Additional Guides
-- [Stellar Blade Modding Guides](https://github.com/Stellar-Blade-Modding-Team/Stellar-Blade-Modding-Guide/wiki)
-
-
 ## CNS: Custom Nanosuit System
 Provides an in-game user interface that allows outfit mod creators to easily interface with, that in turn allows players to easily swith between custom outfits (that dont override default outfit assets).. 
 
 - [CNS Mod Setup Guide](/guides/cns-mod-setup.md)
 - [CNS JSON Setup Guide](/guides/cns-outfit-setup.md)
+
+
+## Additional Guides
+- [Stellar Blade Modding Guides](https://github.com/Stellar-Blade-Modding-Team/Stellar-Blade-Modding-Guide/wiki)
 
 
 ## Extra Support
