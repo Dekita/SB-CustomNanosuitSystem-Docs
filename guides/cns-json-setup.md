@@ -129,7 +129,7 @@ Example JSON:
 ```
 
 
-## Combined Example
+## Combined Examples
 Below is a complete EXAMPLE setup for an outfit. 
 
 ```json
@@ -145,6 +145,21 @@ Below is a complete EXAMPLE setup for an outfit.
             "/Game/OutfitMods/Dek_SuperAwsomeSkinSuit/DekSuit69.DekSuit69",
             "/Game/OutfitMods/Dek_SuperAwsomeSkinSuit/DekSuit69_V2.DekSuit69_V2"
         ]
+    }
+]
+```
+
+Here is a complete FUNCTIONAL example setup for an outfir from the default game.This is just an example to give a copy/paste solution to demonstrate how to setup a working outfit config. You should ALWAYS make sure your outfit is in a custom game directory so that it doesnt override default assets!!
+
+```json
+[
+    {
+        "UniqueFitID": "Dek_PlanetDivingSuitV7",
+        "Requirement": "None",
+        "DisplayName": "Example Planet Diving Suit (7th)",
+        "Description": "Custom description for example planet diving suit",
+        "OutfitTypes": [],
+        "OutfitPaths": ["/Game/Art/Character/PC/CH_P_EVE_09/CH_P_EVE_09.CH_P_EVE_09"]
     }
 ]
 ```
