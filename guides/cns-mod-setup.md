@@ -19,7 +19,7 @@ How to setup the [Custom Nanosuit System](https://www.nexusmods.com/stellarblade
 - Done
 
 
-### Additional Notes
+## Additional Notes
 When installation is complete, you should have the following structure within your games folder; (removed some ue4ss folders and default game files from the list for ease of understanding)
 
 - SB/
