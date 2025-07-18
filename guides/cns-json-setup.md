@@ -149,7 +149,7 @@ Below is a complete EXAMPLE setup for an outfit.
 ]
 ```
 
-Here is a complete FUNCTIONAL example setup for an outfir from the default game.This is just an example to give a copy/paste solution to demonstrate how to setup a working outfit config. You should ALWAYS make sure your outfit is in a custom game directory so that it doesnt override default assets!!
+Here is a complete FUNCTIONAL example setup for an outfit from the default game.This is just an example to give a copy/paste solution to demonstrate how to setup a working outfit config. You should ALWAYS make sure your outfit is in a custom game directory so that it doesnt override default assets!!
 
 ```json
 [
