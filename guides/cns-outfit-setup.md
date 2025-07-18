@@ -9,13 +9,13 @@ How to setup your custom outfits for compatiblity with the [Custom Nanosuit Syst
 - Configure the JSON file for your custom outfit, detailing the correct asset paths set in the previous step.
 
 
-## Detailed Steps: 1
+## Detailed Steps: 1 - Making Your Outfit
 First and foremost, you should make sure that you have a full functional mod before attempting to setup your outfit for the CNS system. This process includes extracting/editing/importing your desired meshes, and ensuring the materials work correctly in game by replacing a default outfit.
 
 The [Stellar Blade Modding Guides](https://github.com/Stellar-Blade-Modding-Team/Stellar-Blade-Modding-Guide/wiki) have a much more in depth guide to this process than I could ever write up, so its best to look there for detailed information when initially setting up your mod. Most notibly, the Textures, Models, Materials, Physics pages. Each one details exactly what you need, and how you can create custom versions of each desired asset.
 
 
-## Detailed Steps: 2
+## Detailed Steps: 2 - Making Your Outfit Custom
 Once you have confirmed that your mod does indeed function as desired in game, it can safely be moved into a custom directory so that your outfit no longer overrides a default asset, and instead, works solely with the Custom Nanosuit System. 
 
 Make sure to ensure that you have a safe copy of the functioning mod before going any further. It is always best to backup your files once you reach a milestone, just in case. 
@@ -40,7 +40,7 @@ NOTE: DO NOT CHECK THE `Apply Recursively` OPTION WITHIN YOUR `Primary Asset Lab
 Once all of your custom assets, and the `Primary Asset Label` (or manual chunk id assignments) have been setup, you can now safely package your mod!
 
 
-## Detailed Steps: 3
+## Detailed Steps: 3 - Configuring Your Outfit JSON
 See the [CNS JSON Setup Guide](/guides/cns-json-setup.md) for detailed information on configuring the json for your custom outfit. 
 
 
