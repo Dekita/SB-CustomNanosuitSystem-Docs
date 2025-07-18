@@ -1,154 +1,51 @@
 
-
-# Custom Nanosuit System JSON structure
-How to add your own mods configuration options into the [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/????) interface by dekitarpg@gmail.com. 
-
-# Basic Configuration Setup
-In order for your dekcns.json file to be compatible with the CNS menu, it MUST be a valid json structure formatted in the way the system expects. The following structure details the most basic configurable options. This is all the json you would need to add your own custom outfit into the menu's interface; 
-
-```json
-[
-    {
-        "UniqueFitID": "{YourCustomOutfitID}",
-        "Requirement": "{RequiredDLC}",
-        "DisplayName": "{YourOutfitDisplayName}",
-        "Description": "{YourOutfitDescription}",
-        "OutfitTypes": ["{OutfitType1}", "{OutfitType2}", "..."],
-        "OutfitImage": "{SoftReferenceToYourOutfitIcon}",
-        "OutfitPaths": [
-            "{SoftReferenceToYourOutfitVariation1}",
-            "{SoftReferenceToYourOutfitVariation2}",
-            "..."
-        ]
-    }
-]
-```
-
-Simply paste this json into a file named "MyAwesomeOutfit.dekcns.json", add it to your Stellar Blade installations Content/Paks/~mods folder. Once you configure the options, it should be displayed within the CNS interface. 
-
-:exclamation: Remember to configure your json properly before loading the interface in game!
+# Custom Nanosuit System 
+How to setup your custom outfits for compatiblity with the [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/????) interface by dekitarpg@gmail.com. 
 
 
-## Detailed Structure Breakdown
-Essentially, the json structure consists of an array of objects, where each object defines a custom outfit's data. Your json file can have as many objects as you desire, to allow for multiple outfit configurations per json file. 
-
-For the purposes of this guide, "Object" will always refer to an outfit configuration object within the main json array.  
-
-All of the properties within the object are either strings, or arrays of strings. See below for specific information related to each property within the outfit definition "Object".
+## Basic Steps
+- Ensure your mod is fully working first (ie: create a regular asset replacement mod)
+- Move all custom files for your mod into a completely unique directory within your unreal engine project. (Recommended to use the `OutfitMods/YourModName` directory)
+- Configure the JSON file for your custom outfit, detailing the correct asset paths set in the previous step.
 
 
-## UniqueFitID `string` 
-Should be a completely unique identifier for each outfit. It is recommended to set this string to contain your username and mod name, to ensure that it will always be unique. 
+## Detailed Steps: 1
+First and foremost, you should make sure that you have a full functional mod before attempting to setup your outfit for the CNS system. This process includes extracting/editing/importing your desired meshes, and ensuring the materials work correctly in game by replacing a default outfit.
 
-Example JSON: 
-```json
-{
-    "UniqueFitID": "Dek_SuperAwsomeSkinSuit69",
-}
-```
+The [Stellar Blade Modding Guides](https://github.com/Stellar-Blade-Modding-Team/Stellar-Blade-Modding-Guide/wiki) have a much more in depth guide to this process than I could ever write up, so its best to look there for detailed information when initially setting up your mod. Most notibly, the Textures, Models, Materials, Physics pages. Each one details exactly what you need, and how you can create custom versions of each desired asset.
 
 
-## Requirement `string` [optional] (default = None)
-Allows you to specify a DLC requirement that you rely on in order for your custom outfit to function correctly. For example, if you are making an edit to the CoolingSuit skin, which is part of the Nikke DLC, and reference assets from that DLC within your outfits skeletal mesh, you should fill in this field to ensure that only users who have those files will be shown the button for the outfit within the interface.
+## Detailed Steps: 2
+Once you have confirmed that your mod does indeed function as desired in game, it can safely be moved into a custom directory so that your outfit no longer overrides a default asset, and instead, works solely with the Custom Nanosuit System. 
 
-Example JSON: 
-```json
-{
-    "Requirement": "None",
-}
-```
-String should contain any one (and only one) of the following values if required;
-- TachyonDLC
-- DeluxeDLC
-- NikkeDLC
-- NierDLC
-- None
+Make sure to ensure that you have a safe copy of the functioning mod before going any further. It is always best to backup your files once you reach a milestone, just in case. 
 
+After you create your backup, you can safely move your any required files that your outfit currently overrides into a custom directory, so that they no longer override any assets. It is recommended to create an `OutfitMods` folder, within your unreal engine projects `Content` folder, that can be used to house all of your CNS compatible mods. Then, create a folder for each individual outfit within the `OutfitMods` folder where you will place the files for each outfit. 
 
-## DisplayName `string` 
-This determines the outfit name shown within the interface to users. You should set this to be human readable, and somewhat unique (but uniqueness is not required)
+For Example;
+- Content
+  - OutfitMods
+    - MyOutfit1
+    - MyOutfit2
+    - MyOutfit3
+    
+Each custom outfit folder should contain ALL files required by your outfit. This will include your custom Skeletal Mesh, Materials, Textures, Physics Assets, Skeletons, etc.. However, IF you are referencing a default game asset that is not being overrriden or altered in any way, such as a parent material or base game texture, you should keep those in their default location and NOT include them within your packaged mod files. 
 
-Example JSON: 
-```json
-{
-    "DisplayName": "Super Awesome Skin Suit 69",
-}
-```
+When you have finished moving each required file into your `OutfitMods/MyCustomOutfit` folder, it is recommended to run `Fix Up Redirectors In Folder` by right clicking in Unreal Engine on the main `Content` folder. This will ensure that nay 'loose' references that have occured due to moving a lot of files will get resolved correctly. 
+
+Finally, it is time to package your mod. I personally use the `Primary Asset Label` method, documented on the Stellar Blade Mod Guide Wiki [here](https://github.com/Stellar-Blade-Modding-Team/Stellar-Blade-Modding-Guide/wiki/Packaging-Mods#step-1-primaryassetlabel). This method allows for much higher `Chunk ID` assignments than manually assigning them to each file. Additionally, because all of the assets for your mod are contained within a single folder, you can select the `Label Assets In My Directory` checkbox within the `Primary Asset Label` (assuming it is within the root custom folder for your outfit, eg: `OutfitMods/MyCustomOutfit`) to easily include all assets you have modified. 
+
+NOTE: DO NOT CHECK THE `Apply Recursively` OPTION WITHIN YOUR `Primary Asset Label` as this will automatically include any asset you have referenced, which is not desirable as it can cause default game assets to be overriden unintentionally. 
+
+Once all of your custom assets, and the `Primary Asset Label` (or manual chunk id assignments) have been setup, you can now safely package your mod!
 
 
-## Description `string` 
-Allows for a description that is shown to users within the UI, when hovering the button for over your outfit. Should be no more than two lines long in order to remain consistent and not overflow onto other UI elements. 
-
-Example JSON: 
-```json
-{
-    "Description": "My super awesome, lore friendly,\nfabulous outfit description!",
-}
-```
-Note: `\n` creates a newline. 
+## Detailed Steps: 3
+See the [CNS JSON Setup Guide](/guides/cns-json-setup.md) for detailed information on configuring the json for your custom outfit. 
 
 
-## OutfitTypes `[string]` [optional]
-A string array containing the type(s) of outfit the "Object" is defining. 
+## Troubleshooting
+- Use [FModel](https://github.com/4sval/FModel) to inspect the files within your packaged mod
+- Use [MS Visual Studio Code](https://code.visualstudio.com/) to ensure your json is valid. it will provide syntax highlighting, and json specific extensions can be installed for additional readability etc. 
+- Join my [Discord Support Server](https://discord.gg/DCXh2TUF2u) if you need some additional guidance in getting things setup for your own mod. 
 
-Example JSON: 
-```json
-{
-    "OutfitTypes": ["Swimsuit", "NSFW"],
-}
-```
-Can be any/all of the following values; (case sensitive)
-- Swimsuit
-- Dress
-- NSFW
-
-
-## OutfitImage `string` 
-Should contain a "soft reference" to the path where your desired icon resides. This could be any one of the default game outfit icons, or a custom icon you provide within your outfits .pak files. 
-
-Example JSON: 
-```json
-{
-    "OutfitImage": "/Game/Art/UI/Texture/Item/NanoSuit/NanoSuit_Icon_BS_20.NanoSuit_Icon_BS_20",
-}
-```
-Notice: soft references have `/Game` as the root path rather than `SB/Content` or `Content`. The `Art` folder in this example, would be within the UE projects `Content/Art` folder. Additionally, notice the repeating of the asset name (`.NanoSuit_Icon_BS_20` in the above example) rather than `.uasset` or similar. This is also required for a soft reference to function correctly. 
-
-
-## OutfitPaths `[string]` 
-An array of soft reference strings, where each string is a soft ref to the underlying Skeletal Mesh for your outfit. When there is more than one element within this array, the UI will treat them as variants for the first outfit, and allow users to cycle through them (with left/right arrows). This should be used for its intended purpose; to provide alternate variants of a single outfit, rather than to define multiple different outfits. 
-
-Example JSON: 
-```json
-{
-    "OutfitPaths": [
-        "/Game/OutfitMods/Dek_SuperAwsomeSkinSuit/DekSuit69.DekSuit69",
-        "/Game/OutfitMods/Dek_SuperAwsomeSkinSuit/DekSuit69_V2.DekSuit69_V2"
-    ]
-}
-```
-
-
-## Combined Example
-Below is a complete EXAMPLE setup for an outfit. 
-
-```json
-[
-    {
-        "UniqueFitID": "Dek_SuperAwsomeSkinSuit69",
-        "Requirement": "None",
-        "DisplayName": "Super Awesome Skin Suit 69",
-        "Description": "My super awesome, lore friendly,\nfabulous outfit description!",
-        "OutfitTypes": ["Swimsuit", "NSFW"],
-        "OutfitImage": "/Game/Art/UI/Texture/Item/NanoSuit/NanoSuit_Icon_BS_20.NanoSuit_Icon_BS_20",
-        "OutfitPaths": [
-            "/Game/OutfitMods/Dek_SuperAwsomeSkinSuit/DekSuit69.DekSuit69",
-            "/Game/OutfitMods/Dek_SuperAwsomeSkinSuit/DekSuit69_V2.DekSuit69_V2"
-        ]
-    }
-]
-```
-
-# Extra
-- feel free to request additional information be added. 
-- join my [Discord Support Server](https://discord.gg/DCXh2TUF2u) if you need some additional guidance in getting things setup for your own mod. 
