@@ -37,7 +37,7 @@ For the purposes of this guide, "Object" will always refer to an outfit configur
 All of the properties within the object are either strings, or arrays of strings. See below for specific information related to each property within the outfit definition "Object".
 
 
-## UniqueFitID `{string}` 
+## UniqueFitID `string` 
 Should be a completely unique identifier for each outfit. It is recommended to set this string to contain your username and mod name, to ensure that it will always be unique. 
 
 Example JSON: 
@@ -48,7 +48,7 @@ Example JSON:
 ```
 
 
-## Requirement `{string}` [optional] (default = None)
+## Requirement `string` [optional] (default = None)
 Allows you to specify a DLC requirement that you rely on in order for your custom outfit to function correctly. For example, if you are making an edit to the CoolingSuit skin, which is part of the Nikke DLC, and reference assets from that DLC within your outfits skeletal mesh, you should fill in this field to ensure that only users who have those files will be shown the button for the outfit within the interface.
 
 Example JSON: 
@@ -65,7 +65,7 @@ String should contain any one (and only one) of the following values if required
 - None
 
 
-## DisplayName `{string}` 
+## DisplayName `string` 
 This determines the outfit name shown within the interface to users. You should set this to be human readable, and somewhat unique (but uniqueness is not required)
 
 Example JSON: 
@@ -76,7 +76,7 @@ Example JSON:
 ```
 
 
-## Description `{string}` 
+## Description `string` 
 Allows for a description that is shown to users within the UI, when hovering the button for over your outfit. Should be no more than two lines long in order to remain consistent and not overflow onto other UI elements. 
 
 Example JSON: 
@@ -88,7 +88,7 @@ Example JSON:
 Note: `\n` creates a newline. 
 
 
-## OutfitTypes `{[string]}` [optional]
+## OutfitTypes `[string]` [optional]
 A string array containing the type(s) of outfit the "Object" is defining. 
 
 Example JSON: 
@@ -103,7 +103,7 @@ Can be any/all of the following values; (case sensitive)
 - NSFW
 
 
-## OutfitImage `{string}` 
+## OutfitImage `string` 
 Should contain a "soft reference" to the path where your desired icon resides. This could be any one of the default game outfit icons, or a custom icon you provide within your outfits .pak files. 
 
 Example JSON: 
@@ -115,7 +115,7 @@ Example JSON:
 Notice: soft references have `/Game` as the root path rather than `SB/Content` or `Content`. The `Art` folder in this example, would be within the UE projects `Content/Art` folder. Additionally, notice the repeating of the asset name (`.NanoSuit_Icon_BS_20` in the above example) rather than `.uasset` or similar. This is also required for a soft reference to function correctly. 
 
 
-## OutfitPaths `{[string]}` 
+## OutfitPaths `[string]` 
 An array of soft reference strings, where each string is a soft ref to the underlying Skeletal Mesh for your outfit. When there is more than one element within this array, the UI will treat them as variants for the first outfit, and allow users to cycle through them (with left/right arrows). This should be used for its intended purpose; to provide alternate variants of a single outfit, rather than to define multiple different outfits. 
 
 Example JSON: 
