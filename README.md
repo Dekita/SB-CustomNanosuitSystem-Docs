@@ -6,8 +6,8 @@ This repository contains helpful guides for creating compatible configuration to
 
 
 ## Recommended Programs
-- [MS Visual Studio Code](https://code.visualstudio.com/) (for editing json files - recommend a json formatter extension to ensure valid json)
-- [Unreal Engine 4.26](https://www.unrealengine.com/en-US/blog/unreal-engine-4-26-released) (for creating outfit mods)
+- [MS Visual Studio Code](https://code.visualstudio.com/) for editing json files
+- [Unreal Engine 4.26](https://www.unrealengine.com/en-US/blog/unreal-engine-4-26-released) for creating outfit mods
 
 
 ## CNS: Custom Nanosuit System
