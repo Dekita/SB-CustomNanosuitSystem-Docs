@@ -1,4 +1,7 @@
 
+<img src="https://raw.githubusercontent.com/dekita/sb-customnanosuitsystem-docs/main/images/dekcns.jpg" style="margin-top: 28px;">
+
+
 # SB-CustomNanosuitSystem-Docs
 
 This repository contains helpful guides for creating compatible configuration to interface with the [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/????). 
