@@ -159,6 +159,7 @@ Here is a complete FUNCTIONAL example setup for an outfit from the default game.
         "DisplayName": "Example Planet Diving Suit (7th)",
         "Description": "Custom description for example planet diving suit",
         "OutfitTypes": [],
+        "OutfitImage": "/Game/Art/UI/Texture/Item/NanoSuit/NanoSuit_Icon_BS_20.NanoSuit_Icon_BS_20",
         "OutfitPaths": ["/Game/Art/Character/PC/CH_P_EVE_09/CH_P_EVE_09.CH_P_EVE_09"]
     }
 ]
