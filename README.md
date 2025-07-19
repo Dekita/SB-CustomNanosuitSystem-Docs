@@ -14,9 +14,9 @@ This repository contains helpful guides for getting setup, and for creating comp
 Provides an in-game user interface that allows outfit mod creators to easily interface with, that in turn allows players to easily switch between custom outfits (that dont override default outfit assets).. 
 
 - [CNS Mod Setup Guide](/guides/cns-mod-setup.md)
-- [CNS JSON Setup Guide](/guides/cns-json-setup.md)
-- [CNS Icon Quick Guide](/guides/cns-icon-paths.md)
 - [CNS Outfit Setup Guide](/guides/cns-outfit-setup.md)
+- [CNS JSON Setup Guide](/guides/cns-json-setup.md)
+- [CNS Icon Paths Guide](/guides/cns-icon-paths.md)
 
 
 ## Additional Guides
