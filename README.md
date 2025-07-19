@@ -1,6 +1,6 @@
 # SB-CustomNanosuitSystem-Docs
 
-<img src="https://github.com/Dekita/SB-CustomNanosuitSystem-Docs/blob/main/images/DekCNS.jpg" style="margin-top: 28px;">
+<img src="https://github.com/Dekita/SB-CustomNanosuitSystem-Docs/blob/main/images/cns-screenshot.jpg" style="margin-top: 28px;">
 
 This repository contains helpful guides for getting setup, and for creating compatible configuration to interface with the [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/1496). 
 
@@ -15,6 +15,7 @@ Provides an in-game user interface that allows outfit mod creators to easily int
 
 - [CNS Mod Setup Guide](/guides/cns-mod-setup.md)
 - [CNS JSON Setup Guide](/guides/cns-json-setup.md)
+- [CNS Icon Quick Guide](/guides/cns-icon-paths.md)
 - [CNS Outfit Setup Guide](/guides/cns-outfit-setup.md)
 
 

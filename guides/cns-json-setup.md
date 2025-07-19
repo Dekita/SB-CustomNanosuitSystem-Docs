@@ -114,6 +114,8 @@ Example JSON:
 ```
 Notice: soft references have `/Game` as the root path rather than `SB/Content` or `Content`. The `Art` folder in this example, would be within the UE projects `Content/Art` folder. Additionally, notice the repeating of the asset name (`.NanoSuit_Icon_BS_20` in the above example) rather than `.uasset` or similar. This is also required for a soft reference to function correctly. 
 
+See [CNS Icon Quick Guide](/guides/cns-icon-paths.md) for a handy guide to default icons! <3 
+
 
 ## OutfitPaths `[string]` 
 An array of soft reference strings, where each string is a soft ref to the underlying Skeletal Mesh for your outfit. When there is more than one element within this array, the UI will treat them as variants for the first outfit, and allow users to cycle through them (with left/right arrows). This should be used for its intended purpose; to provide alternate variants of a single outfit, rather than to define multiple different outfits. 
