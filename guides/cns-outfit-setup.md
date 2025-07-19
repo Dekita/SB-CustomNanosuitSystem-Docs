@@ -1,6 +1,6 @@
 
 # Custom Nanosuit System 
-How to setup your custom outfits for compatiblity with the [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/????) interface by dekitarpg@gmail.com. 
+How to setup your custom outfits for compatiblity with the [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/1496) interface by dekitarpg@gmail.com. 
 
 
 ## Basic Steps

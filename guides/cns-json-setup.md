@@ -1,7 +1,7 @@
 
 
 # Custom Nanosuit System JSON structure
-How to add your own mods configuration options into the [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/????) interface by dekitarpg@gmail.com. 
+How to add your own mods configuration options into the [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/1496) interface by dekitarpg@gmail.com. 
 
 # Basic Configuration Setup
 In order for your dekcns.json file to be compatible with the CNS menu, it MUST be a valid json structure formatted in the way the system expects. The following structure details the most basic configurable options. This is all the json you would need to add your own custom outfit into the menu's interface; 
