@@ -1,5 +1,5 @@
 # Icon Texture Path Info
-Below is a list of all default nanosuit icons in the game. You can easily copy the string for your desired icon and paste it in for the `OutfitImage` in your outfits json configuration. 
+Below is a list of path information for the default icons in the game. You can easily copy the string for your desired icon and paste it in for the `OutfitImage` in your outfits json configuration. 
 
 ### NanoSuits
 
