@@ -1,6 +1,8 @@
 # Icon Texture Path Info
 Below is a list of all default nanosuit icons in the game. You can easily copy the string for your desired icon and paste it in for the `OutfitImage` in your outfits json configuration. 
 
+### NanoSuits
+
 <img src="https://github.com/Dekita/SB-CustomNanosuitSystem-Docs/blob/main/images/ui-textures/nanosuit-icons.png" style="margin-top: 28px;">
 
 ```json
@@ -83,3 +85,86 @@ Below is a list of all default nanosuit icons in the game. You can easily copy t
     "/Game/Art/UI/Texture/Item/NanoSuit/NanoSuit_Icon_Yellow_Suit_Jacket.NanoSuit_Icon_Yellow_Suit_Jacket"
 ]
 ```
+
+### Earrings
+
+<img src="https://github.com/Dekita/SB-CustomNanosuitSystem-Docs/blob/main/images/ui-textures/earring-icons.png" style="margin-top: 28px;">
+
+```json
+[
+    "/Game/Art/UI/Texture/Item/EarRing/Deco_Icon_Earring_001.Deco_Icon_Earring_001",
+    "/Game/Art/UI/Texture/Item/EarRing/Deco_Icon_Earring_002.Deco_Icon_Earring_002",
+    "/Game/Art/UI/Texture/Item/EarRing/Deco_Icon_Earring_003.Deco_Icon_Earring_003",
+    "/Game/Art/UI/Texture/Item/EarRing/Deco_Icon_Earring_004.Deco_Icon_Earring_004",
+    "/Game/Art/UI/Texture/Item/EarRing/Deco_Icon_Earring_005.Deco_Icon_Earring_005",
+    "/Game/Art/UI/Texture/Item/EarRing/Deco_Icon_Earring_006.Deco_Icon_Earring_006",
+    "/Game/Art/UI/Texture/Item/EarRing/Deco_Icon_Earring_007.Deco_Icon_Earring_007",
+    "/Game/Art/UI/Texture/Item/EarRing/Deco_Icon_Earring_008.Deco_Icon_Earring_008",
+    "/Game/Art/UI/Texture/Item/EarRing/Deco_Icon_Earring_009.Deco_Icon_Earring_009",
+    "/Game/Art/UI/Texture/Item/EarRing/Deco_Icon_Earring_010.Deco_Icon_Earring_010",
+    "/Game/Art/UI/Texture/Item/EarRing/Deco_Icon_Earring_011.Deco_Icon_Earring_011",
+    "/Game/Art/UI/Texture/Item/EarRing/Deco_Icon_Earring_012.Deco_Icon_Earring_012",
+    "/Game/Art/UI/Texture/Item/EarRing/Deco_Icon_Earring_013.Deco_Icon_Earring_013",
+    "/Game/Art/UI/Texture/Item/EarRing/Deco_Icon_Earring_014.Deco_Icon_Earring_014",
+    "/Game/Art/UI/Texture/Item/EarRing/Deco_Icon_Earring_015.Deco_Icon_Earring_015",
+    "/Game/Art/UI/Texture/Item/EarRing/Deco_Icon_Earring_016.Deco_Icon_Earring_016",
+    "/Game/Art/UI/Texture/Item/EarRing/Deco_Icon_Earring_017.Deco_Icon_Earring_017",
+    "/Game/Art/UI/Texture/Item/EarRing/Deco_Icon_Earring_018.Deco_Icon_Earring_018",
+    "/Game/Art/UI/Texture/Item/EarRing/Deco_Icon_Earring_Christmas_01.Deco_Icon_Earring_Christmas_01",
+    "/Game/Art/UI/Texture/Item/EarRing/Deco_Icon_Earring_Christmas_02.Deco_Icon_Earring_Christmas_02"
+]
+```
+
+### Glasses
+
+<img src="https://github.com/Dekita/SB-CustomNanosuitSystem-Docs/blob/main/images/ui-textures/glasses-icons.png" style="margin-top: 28px;">
+
+```json
+[
+    "/Game/Art/UI/Texture/Item/glasses/Deco_Icon_FaceAccessory_001.Deco_Icon_FaceAccessory_001",
+    "/Game/Art/UI/Texture/Item/glasses/Deco_Icon_FaceAccessory_002.Deco_Icon_FaceAccessory_002",
+    "/Game/Art/UI/Texture/Item/glasses/Deco_Icon_FaceAccessory_003.Deco_Icon_FaceAccessory_003",
+    "/Game/Art/UI/Texture/Item/glasses/Deco_Icon_FaceAccessory_004.Deco_Icon_FaceAccessory_004",
+    "/Game/Art/UI/Texture/Item/glasses/Deco_Icon_FaceAccessory_005.Deco_Icon_FaceAccessory_005",
+    "/Game/Art/UI/Texture/Item/glasses/Deco_Icon_FaceAccessory_006.Deco_Icon_FaceAccessory_006",
+    "/Game/Art/UI/Texture/Item/glasses/Deco_Icon_FaceAccessory_007.Deco_Icon_FaceAccessory_007",
+    "/Game/Art/UI/Texture/Item/glasses/Deco_Icon_FaceAccessory_008.Deco_Icon_FaceAccessory_008",
+    "/Game/Art/UI/Texture/Item/glasses/Deco_Icon_FaceAccessory_009.Deco_Icon_FaceAccessory_009",
+    "/Game/Art/UI/Texture/Item/glasses/Deco_Icon_FaceAccessory_010.Deco_Icon_FaceAccessory_010",
+    "/Game/Art/UI/Texture/Item/glasses/Deco_Icon_FaceAccessory_011.Deco_Icon_FaceAccessory_011",
+    "/Game/Art/UI/Texture/Item/glasses/Deco_Icon_FaceAccessory_012.Deco_Icon_FaceAccessory_012",
+    "/Game/Art/UI/Texture/Item/glasses/Deco_Icon_FaceAccessory_013.Deco_Icon_FaceAccessory_013",
+    "/Game/Art/UI/Texture/Item/glasses/Deco_Icon_FaceAccessory_026.Deco_Icon_FaceAccessory_026",
+    "/Game/Art/UI/Texture/Item/glasses/Deco_Icon_FaceAccessory_027.Deco_Icon_FaceAccessory_027",
+    "/Game/Art/UI/Texture/Item/glasses/Deco_Icon_FaceAccessory_028.Deco_Icon_FaceAccessory_028",
+    "/Game/Art/UI/Texture/Item/glasses/Deco_Icon_FaceAccessory_029.Deco_Icon_FaceAccessory_029",
+    "/Game/Art/UI/Texture/Item/glasses/Deco_Icon_FaceAccessory_Christmas_01.Deco_Icon_FaceAccessory_Christmas_01"
+]
+```
+
+### Hair
+
+<img src="https://github.com/Dekita/SB-CustomNanosuitSystem-Docs/blob/main/images/ui-textures/hair-icons.png" style="margin-top: 28px;">
+
+```json
+[
+    "/Game/Art/UI/Texture/Hair/HairIcon/Deco_Item_Hair_000.Deco_Item_Hair_000",
+    "/Game/Art/UI/Texture/Hair/HairIcon/Deco_Item_Hair_001.Deco_Item_Hair_001",
+    "/Game/Art/UI/Texture/Hair/HairIcon/Deco_Item_Hair_002.Deco_Item_Hair_002",
+    "/Game/Art/UI/Texture/Hair/HairIcon/Deco_Item_Hair_003.Deco_Item_Hair_003",
+    "/Game/Art/UI/Texture/Hair/HairIcon/Deco_Item_Hair_004.Deco_Item_Hair_004",
+    "/Game/Art/UI/Texture/Hair/HairIcon/Deco_Item_Hair_005.Deco_Item_Hair_005",
+    "/Game/Art/UI/Texture/Hair/HairIcon/Deco_Item_Hair_006.Deco_Item_Hair_006",
+    "/Game/Art/UI/Texture/Hair/HairIcon/Deco_Item_Hair_007.Deco_Item_Hair_007",
+    "/Game/Art/UI/Texture/Hair/HairIcon/Deco_Item_Hair_008.Deco_Item_Hair_008",
+    "/Game/Art/UI/Texture/Hair/HairIcon/Deco_Item_Hair_009.Deco_Item_Hair_009",
+    "/Game/Art/UI/Texture/Hair/HairIcon/Deco_Item_Hair_010.Deco_Item_Hair_010",
+    "/Game/Art/UI/Texture/Hair/HairIcon/Deco_Item_Hair_011.Deco_Item_Hair_011",
+    "/Game/Art/UI/Texture/Hair/HairIcon/Deco_Item_Hair_012.Deco_Item_Hair_012",
+    "/Game/Art/UI/Texture/Hair/HairIcon/Deco_Item_Hair_013.Deco_Item_Hair_013",
+    "/Game/Art/UI/Texture/Hair/HairIcon/Deco_Item_Hair_024.Deco_Item_Hair_024",
+    "/Game/Art/UI/Texture/Hair/HairIcon/Deco_Item_Hair_026.Deco_Item_Hair_026",
+    "/Game/Art/UI/Texture/Hair/HairIcon/Deco_Item_Hair_Christmas_01.Deco_Item_Hair_Christmas_01"
+]
+```
+

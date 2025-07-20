@@ -88,8 +88,26 @@ Example JSON:
 Note: `\n` creates a newline. 
 
 
+## FitMeshType `string` [optional]
+Tells the system what mesh type the new outfit is for. Can be left empty when making nanosuits, but MUST be added for face, hair, glasses, etc. 
+
+Example JSON:
+```json
+{
+    "FitMeshType": "Body",
+}
+```
+Can be any one of the following values; (case sensitive)
+- Body (default)
+- Face
+- Hair
+- Ears
+- Eyes
+- Weapon
+
+
 ## OutfitTypes `[string]` [optional]
-A string array containing the type(s) of outfit the "Object" is defining. 
+A string array containing the type(s) of outfit the "Object" is defining. Only valid for when `FitMeshType` is equal to `Body` (or empty). 
 
 Example JSON: 
 ```json
@@ -141,6 +159,7 @@ Below is a complete EXAMPLE setup for an outfit.
         "Requirement": "None",
         "DisplayName": "Super Awesome Skin Suit 69",
         "Description": "My super awesome, lore friendly,\nfabulous outfit description!",
+        "FitMeshType": "Body",
         "OutfitTypes": ["Swimsuit", "NSFW"],
         "OutfitImage": "/Game/Art/UI/Texture/Item/NanoSuit/NanoSuit_Icon_BS_20.NanoSuit_Icon_BS_20",
         "OutfitPaths": [
@@ -160,6 +179,7 @@ Here is a complete FUNCTIONAL example setup for an outfit from the default game.
         "Requirement": "None",
         "DisplayName": "Example Planet Diving Suit (7th)",
         "Description": "Custom description for example planet diving suit",
+        "FitMeshType": "Body",
         "OutfitTypes": [],
         "OutfitImage": "/Game/Art/UI/Texture/Item/NanoSuit/NanoSuit_Icon_BS_20.NanoSuit_Icon_BS_20",
         "OutfitPaths": ["/Game/Art/Character/PC/CH_P_EVE_09/CH_P_EVE_09.CH_P_EVE_09"]

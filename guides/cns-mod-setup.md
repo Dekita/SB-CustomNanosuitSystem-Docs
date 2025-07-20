@@ -36,10 +36,12 @@ When installation is complete, you should have the following structure within yo
   - Content/
     - Paks/
       - ~mods/
-        - DekCNS-SkinSuit.pak
-        - DekCNS-SkinSuit.ucas
-        - DekCNS-SkinSuit.utoc
-        - DekCNS-Skinsuit.dekcns.json
+        - CustomNanosuitSystem
+          - DekCNS-SkinSuit.pak
+          - DekCNS-SkinSuit.ucas
+          - DekCNS-SkinSuit.utoc
+          - DekCNS-Defaults.dekcns.json
+          - DekCNS-Skinsuit.dekcns.json
       - LogicMods/
         - DekCNS_P.pak
         - DekCNS_P.ucas
