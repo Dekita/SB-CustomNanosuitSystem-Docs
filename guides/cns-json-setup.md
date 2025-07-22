@@ -209,10 +209,10 @@ Example JSON:
   - ParamType `string` - The type of parameter this is controlling (can be Scalar, Vector, or Texture) 
   - Association `string` - The association type for this parameter (can be Layer, Blend, or Global)
   - Value `float|[float]|string` 
-    - When param tyoe is Scalar, this should be a float value. 
-    - When param tyoe is Vector, this should be an array of 4 float values, for RGBA. 
-    - When param tyoe is Texture, this should be a soft reference string for the texture path. 
-Most of this information can be found from within the fmode exported json data for the material you are controlling. 
+    - When param type is Scalar, this should be a float value. 
+    - When param type is Vector, this should be an array of 4 float values, for RGBA. 
+    - When param type is Texture, this should be a soft reference string for the texture path. 
+Most of this information can be found from within the fmodels exported json data for the material you are controlling. 
 
 
 ## Combined Examples
