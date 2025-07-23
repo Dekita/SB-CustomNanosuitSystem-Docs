@@ -49,7 +49,7 @@ Need help getting started or running into issues with setup? The Discord Support
 
 If you've found this project helpful and want to give back, please consider supporting it through Patreon or PayPal. Creating and maintaining these tools takes a significant amount of time and effort - from writing documentation and testing code, to keeping up with bug fixes, and helping users troubleshoot.
 
-Your support directly helps keep development going. Even small contributions make a big difference - they help cover costs, justify time spent improving and expanding features, and keep everything free and accessible to everyone.
+Your support directly helps keep development going. Even small contributions make a big difference - they help cover costs, justify time spent improving and expanding features, and keep motivation strong.
 
 If you're in a position to support the project, thank you - it truely means a lot! <3
 
