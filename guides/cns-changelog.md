@@ -5,7 +5,7 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 
 
 ## v1.5: (unreleased)
-- Fixed strange issue causing mouse cursor to not show after opening CNS ui, then opening fast travel ui. 
+- Fixed strange issue causing mouse cursor to not show after opening CNS UI, then opening fast travel UI. 
 
 
 ## v1.4:

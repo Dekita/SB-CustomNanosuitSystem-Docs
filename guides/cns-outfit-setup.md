@@ -49,3 +49,11 @@ See the [CNS JSON Setup Guide](/guides/cns-json-setup.md) for detailed informati
 - Use [MS Visual Studio Code](https://code.visualstudio.com/) to ensure your json is valid. it will provide syntax highlighting, and json specific extensions can be installed for additional readability etc. 
 - Join my [Discord Support Server](https://discord.gg/DCXh2TUF2u) if you need some additional guidance in getting things setup for your own mod. 
 
+
+<div align="center">
+
+[![Discord](https://img.shields.io/discord/1132980259596271657?logo=discord&style=for-the-badge&logoColor=e4e4e4&label=Support%20Server)](https://discord.gg/WyTdramBkm)
+[![Support on Patreon](https://img.shields.io/badge/Support-Patreon-orange?logo=patreon&style=for-the-badge)](https://www.patreon.com/DekitaRPG)
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-0070BA?logo=paypal&style=for-the-badge)](https://www.paypal.me/DekitaRPG)
+
+</div>
