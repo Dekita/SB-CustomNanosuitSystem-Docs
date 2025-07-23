@@ -1,28 +1,15 @@
+# SB-CustomNanosuitSystem-Docs
 <div align="center">
     <img src="https://github.com/Dekita/SB-CustomNanosuitSystem-Docs/blob/main/images/cns-screenshot.jpg" style="margin-top: 28px;">
 </div>
-
 <div align="center">
-    <!-- Discord Badge -->
-    <a href="https://discord.gg/WyTdramBkm" target="_blank" style="text-decoration: none; display: inline-block;">
-    <img src="https://img.shields.io/discord/1132980259596271657?logo=discord&style=for-the-badge&logoColor=e4e4e4&label=Support%20Server"></a>
-    <!-- Patreon Badge -->
-    <a href="https://www.patreon.com/DekitaRPG" target="_blank" style="text-decoration: none; display: inline-block; margin: 0 8px;">
-    <img src="https://img.shields.io/badge/Support-Patreon-orange?logo=patreon&style=for-the-badge"></a>
-    <!-- PayPal Badge -->
-    <a href="https://www.paypal.me/DekitaRPG" target="_blank" style="text-decoration: none; display: inline-block;">
-    <img src="https://img.shields.io/badge/Donate-PayPal-0070BA?logo=paypal&style=for-the-badge"></a>
+
+[![Discord](https://img.shields.io/discord/1132980259596271657?logo=discord&style=for-the-badge&logoColor=e4e4e4&label=Support%20Server)](https://discord.gg/WyTdramBkm)
+[![Support on Patreon](https://img.shields.io/badge/Support-Patreon-orange?logo=patreon&style=for-the-badge)](https://www.patreon.com/DekitaRPG)
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-0070BA?logo=paypal&style=for-the-badge)](https://www.paypal.me/DekitaRPG)
+
 </div>
-
-# SB-CustomNanosuitSystem-Docs
-
-
 This repository contains helpful guides for getting setup, and for creating compatible configuration to interface with the [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/1496). 
-
-
-## Recommended Programs
-- [MS Visual Studio Code](https://code.visualstudio.com/) for editing json files
-- [Unreal Engine 4.26](https://www.unrealengine.com/en-US/blog/unreal-engine-4-26-released) for creating outfit mods
 
 
 ## CNS: Custom Nanosuit System
@@ -35,15 +22,16 @@ Provides an in-game user interface that allows outfit mod creators to easily int
 - [CNS Mod Changelog](/guides/cns-changelog.md)
 
 
+## Recommended Programs
+- [MS Visual Studio Code](https://code.visualstudio.com/) for editing json files
+- [Unreal Engine 4.26](https://www.unrealengine.com/en-US/blog/unreal-engine-4-26-released) for creating outfit mods
+
+
 ## Additional Guides
 - [Stellar Blade Modding Guides](https://github.com/Stellar-Blade-Modding-Team/Stellar-Blade-Modding-Guide/wiki)
 
 
 ## Extra Support
-Join my [Discord Support Server](https://discord.gg/DCXh2TUF2u) if you need some additional guidance in getting things setup for your own mod. 
-
-I put a lot of effort into my mods, not only to make them work well and look nice, but also to allow other modders to expand upon them in the future! Please consider helping this process by showing your support via [Patreon](https://www.patreon.com/DekitaRPG) or [PayPal](https://paypal.me/DekitaRPG)<3
-
 <div align="center">
 
 [![Discord](https://img.shields.io/discord/1132980259596271657?logo=discord&style=for-the-badge&logoColor=e4e4e4&label=Support%20Server)](https://discord.gg/WyTdramBkm)
