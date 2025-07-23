@@ -1,11 +1,12 @@
 <div align="center">
     <img src="https://github.com/Dekita/SB-CustomNanosuitSystem-Docs/blob/main/images/cns-screenshot.jpg" style="margin-top: 28px;">
-    <div class="row" style="margin: 12px;">
-        <a class="mx-2" href="https://discord.gg/WyTdramBkm" target="new">
-        <img src="https://img.shields.io/discord/1132980259596271657?logo=discord&style=for-the-badge&logoColor=e4e4e4&label=Support%20Server"></a>
-    </div>
 </div>
-<hr class="mt-1">
+<hr class="">
+<div align="center">
+    <a class="mx-2" href="https://discord.gg/WyTdramBkm" target="new">
+    <img src="https://img.shields.io/discord/1132980259596271657?logo=discord&style=for-the-badge&logoColor=e4e4e4&label=Support%20Server"></a>
+</div>
+
 
 # SB-CustomNanosuitSystem-Docs
 
