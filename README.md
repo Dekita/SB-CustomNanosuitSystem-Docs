@@ -10,7 +10,7 @@
 
 </div>
 
-This repository contains various help guides and information for mod setup, and for creating compatible configuration add new outfits into the [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/1496). 
+This repository contains various help guides and information for mod setup, and for creating compatible configuration to assist in adding new outfits into the [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/1496). 
 
 
 ## CNS: Custom Nanosuit System
