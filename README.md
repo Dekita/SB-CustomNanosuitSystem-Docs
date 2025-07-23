@@ -14,7 +14,7 @@ This repository contains various help guides and information for mod setup, and 
 </div>
 
 ## Overview
-Provides an in-game user interface that allows outfit mod creators to load custom models without overriding default game assets. Also allows players to easily switch between custom outfits from an in-game interface.
+Provides an in-game user interface that allows outfit mod creators to load custom models without overriding default game assets. Also allows players to easily switch between custom outfits/variants with ease.
 
 ## Features
 - Support for nanosuits, faces, hairstyles, earrings, glasses, and weapons!
