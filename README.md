@@ -1,4 +1,7 @@
 # SB-CustomNanosuitSystem-Docs
+
+This repository contains various help guides and information for mod setup, and for creating compatible configuration to assist in adding new outfits into the [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/1496). 
+
 <div align="center">
     <img src="https://github.com/Dekita/SB-CustomNanosuitSystem-Docs/blob/main/images/cns-screenshot.jpg" style="margin-top: 28px;">
 </div>
@@ -10,7 +13,7 @@
 
 </div>
 
-This repository contains various help guides and information for mod setup, and for creating compatible configuration to assist in adding new outfits into the [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/1496). 
+
 
 
 ## CNS: Custom Nanosuit System
