@@ -45,15 +45,11 @@ Join my [Discord Support Server](https://discord.gg/DCXh2TUF2u) if you need some
 I put a lot of effort into my mods, not only to make them work well and look nice, but also to allow other modders to expand upon them in the future! Please consider helping this process by showing your support via [Patreon](https://www.patreon.com/DekitaRPG) or [PayPal](https://paypal.me/DekitaRPG)<3
 
 <div align="center">
-    <!-- Discord Badge -->
-    <a href="https://discord.gg/WyTdramBkm" target="_blank" style="text-decoration: none; display: inline-block;">
-    <img src="https://img.shields.io/discord/1132980259596271657?logo=discord&style=for-the-badge&logoColor=e4e4e4&label=Support%20Server"></a>
-    <!-- Patreon Badge -->
-    <a href="https://www.patreon.com/DekitaRPG" target="_blank" style="text-decoration: none; display: inline-block; margin: 0 8px;">
-    <img src="https://img.shields.io/badge/Support-Patreon-orange?logo=patreon&style=for-the-badge"></a>
-    <!-- PayPal Badge -->
-    <a href="https://www.paypal.me/DekitaRPG" target="_blank" style="text-decoration: none; display: inline-block;">
-    <img src="https://img.shields.io/badge/Donate-PayPal-0070BA?logo=paypal&style=for-the-badge"></a>
+
+[![Discord](https://img.shields.io/discord/1132980259596271657?logo=discord&style=for-the-badge&logoColor=e4e4e4&label=Support%20Server)](https://discord.gg/WyTdramBkm)
+[![Support on Patreon](https://img.shields.io/badge/Support-Patreon-orange?logo=patreon&style=for-the-badge)](https://www.patreon.com/DekitaRPG)
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-0070BA?logo=paypal&style=for-the-badge)](https://www.paypal.me/DekitaRPG)
+
 </div>
 
 
