@@ -5,10 +5,16 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 
 
 ## v1.5: (unreleased)
+- Added hardcoded Alt+N keybind to open the UI. 
+  - For some yet unknown reason, the system isnt showing the UI from the configurable keybind for a number of players. This provides a hardcoded alternative that should always work. If the customizable binding still works for you, feel free to keep using that. 
+- Fixed issue with non ascii characters breaking the config file scan
+- Added support for subfolders in subfolders (ie: ~mods/CustomNanosuitSystem/FolderName) to allow for easily managing each cns mods files. 
 - Fixed strange issue causing mouse cursor to not show after opening CNS UI, then opening fast travel UI. 
 - Fixed issue causing configuration files to be re-read when cache enabled
 - Fixed issue causing configuration files to be read twice.
 - Removed some redundant code leftover from tests. 
+- Added additional log data when `ExtraLogging` is enabled in main.lua. 
+
 
 ## v1.4:
 - Added CNS version information to the UI
