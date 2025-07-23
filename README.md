@@ -45,6 +45,10 @@ Provides an in-game user interface that allows outfit mod creators to load custo
 
 
 ## Extra Support
+Need some help? Consider joining my Discord Support Server if you want some additional guidance in getting things setup for your own mod. 
+
+If you'd like to show your appreciation, please consider supporting the project via Patreon or PayPal. Your support helps keep the tools updated and development active - even a small donation goes a long way!
+
 <div align="center">
 
 [![Discord](https://img.shields.io/discord/1132980259596271657?logo=discord&style=for-the-badge&logoColor=e4e4e4&label=Support%20Server)](https://discord.gg/WyTdramBkm)
