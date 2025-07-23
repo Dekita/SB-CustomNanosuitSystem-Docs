@@ -45,9 +45,13 @@ Provides an in-game user interface that allows outfit mod creators to load custo
 
 
 ## Extra Support
-Need some help? You're welcome to join the Discord Support Server for assistance with setup or mod-related questions.
+Need help getting started or running into issues with setup? The Discord Support Server is the best place to ask questions, share progress, and get help directly from me and others in the community. Whether you're brand new to modding or just need some clarification, you're more than welcome to join in.
 
-If you'd like to show your appreciation, please consider supporting the project via Patreon or PayPal. Your support helps keep the tools updated and development active - even a small donation goes a long way!
+If you've found this project helpful and want to give back, please consider supporting it through Patreon or PayPal. Creating and maintaining these tools takes a significant amount of time and effort - from writing documentation and testing code, to keeping up with bug fixes, and helping users troubleshoot.
+
+Your support directly helps keep development going. Even small contributions make a big difference - they help cover costs, justify time spent improving and expanding features, and keep everything free and accessible to everyone.
+
+If you're in a position to support the project, thank you - it truely means a lot! <3
 
 <div align="center">
 
