@@ -45,7 +45,7 @@ Provides an in-game user interface that allows outfit mod creators to load custo
 
 
 ## Extra Support
-Need some help? Consider joining my Discord Support Server if you want some additional guidance in getting things setup for your own mod. 
+Need some help? You're welcome to join the Discord Support Server for assistance with setup or mod-related questions.
 
 If you'd like to show your appreciation, please consider supporting the project via Patreon or PayPal. Your support helps keep the tools updated and development active - even a small donation goes a long way!
 
