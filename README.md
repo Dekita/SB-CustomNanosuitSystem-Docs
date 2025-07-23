@@ -17,8 +17,20 @@ This repository contains various help guides and information for mod setup, and 
 
 
 ## CNS: Custom Nanosuit System
-Provides an in-game user interface that allows outfit mod creators to easily interface with, that in turn allows players to easily switch between custom outfits (that dont override default outfit assets).. 
+Provides an in-game user interface that allows outfit mod creators to load custom models without overriding default game assets. Also allows players to easily switch between custom outfits from an in-game interface.
 
+## Features
+- Support for nanosuits, faces, hairstyles, earrings, glasses, and weapons!
+- Automatically saves previously selected outfit for next game load
+- Allows custom models to be loaded/swapped easily in game
+- Restrict outfits unless specific DLC installed
+- Display custom outfit name and icon
+- Categorize your outfit by type
+- Customize material parameters using json configuration
+    - Supports Scalars, Vectors, and Textures
+
+
+## Help Guides
 - [CNS Mod Setup Guide](/guides/cns-mod-setup.md)
 - [CNS Outfit Setup Guide](/guides/cns-outfit-setup.md)
 - [CNS JSON Setup Guide](/guides/cns-json-setup.md)
