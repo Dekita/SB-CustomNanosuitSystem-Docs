@@ -36,10 +36,19 @@ Join my [Discord Support Server](https://discord.gg/DCXh2TUF2u) if you need some
 I put a lot of effort into my mods, not only to make them work well and look nice, but also to allow other modders to expand upon them in the future! Please consider helping this process by showing your support via [Patreon](https://www.patreon.com/DekitaRPG) or [PayPal](https://paypal.me/DekitaRPG)<3
 
 <div align="center">
-    <a class="mx-2" href="https://discord.gg/WyTdramBkm" target="new">
-    <img src="https://img.shields.io/discord/1132980259596271657?logo=discord&style=for-the-badge&logoColor=e4e4e4&label=Support%20Server"></a>
+  <!-- Discord Badge -->
+  <a class="mx-2" href="https://discord.gg/WyTdramBkm" target="_blank">
+    <img src="https://img.shields.io/discord/1132980259596271657?logo=discord&style=for-the-badge&logoColor=e4e4e4&label=Support%20Server">
+  </a>
+
+  <!-- Patreon Badge -->
+  <a class="mx-2" href="https://www.patreon.com/DekitaRPG" target="_blank">
+    <img src="https://img.shields.io/badge/Support-Patreon-orange?logo=patreon&style=for-the-badge">
+  </a>
+
+  <!-- PayPal Badge -->
+  <a class="mx-2" href="https://www.paypal.me/DekitaRPG" target="_blank">
+    <img src="https://img.shields.io/badge/Donate-PayPal-0070BA?logo=paypal&style=for-the-badge">
+  </a>
 </div>
 
-[![Support on Patreon](https://img.shields.io/badge/Support-Patreon-orange?logo=patreon)](https://www.patreon.com/yourusername)
-
-[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue?logo=paypal)](https://www.paypal.me/yourusername)
