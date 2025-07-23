@@ -1,4 +1,4 @@
-# SB-CustomNanosuitSystem-Docs
+# CNS: Custom Nanosuit System
 
 This repository contains various help guides and information for mod setup, and for creating compatible configuration to assist in adding new outfits into the [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/1496). 
 
@@ -13,10 +13,7 @@ This repository contains various help guides and information for mod setup, and 
 
 </div>
 
-
-
-
-## CNS: Custom Nanosuit System
+## Overview
 Provides an in-game user interface that allows outfit mod creators to load custom models without overriding default game assets. Also allows players to easily switch between custom outfits from an in-game interface.
 
 ## Features
