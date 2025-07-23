@@ -1,7 +1,7 @@
 <div align="center">
     <img src="https://github.com/Dekita/SB-CustomNanosuitSystem-Docs/blob/main/images/cns-screenshot.jpg" style="margin-top: 28px;">
 </div>
-<hr style="margin-top: 2px; margin-bottom: 2px">
+<hr class="my-1">
 <div align="center">
     <a class="mx-2" href="https://discord.gg/WyTdramBkm" target="new">
     <img src="https://img.shields.io/discord/1132980259596271657?logo=discord&style=for-the-badge&logoColor=e4e4e4&label=Support%20Server"></a>
