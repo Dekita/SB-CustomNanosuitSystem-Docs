@@ -39,5 +39,7 @@ I put a lot of effort into my mods, not only to make them work well and look nic
     <a class="mx-2" href="https://discord.gg/WyTdramBkm" target="new">
     <img src="https://img.shields.io/discord/1132980259596271657?logo=discord&style=for-the-badge&logoColor=e4e4e4&label=Support%20Server"></a>
 </div>
+
 [![Support on Patreon](https://img.shields.io/badge/Support-Patreon-orange?logo=patreon)](https://www.patreon.com/yourusername)
+
 [![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue?logo=paypal)](https://www.paypal.me/yourusername)
