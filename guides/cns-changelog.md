@@ -8,7 +8,7 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 - Fixed strange issue causing mouse cursor to not show after opening CNS UI, then opening fast travel UI. 
 - Fixed issue causing configuration files to be re-read when cache enabled
 - Fixed issue causing configuration files to be read twice.
-
+- Removed some redundant code leftover from tests. 
 
 ## v1.4:
 - Added CNS version information to the UI
