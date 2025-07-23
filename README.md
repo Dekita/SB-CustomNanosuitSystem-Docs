@@ -17,6 +17,7 @@ Provides an in-game user interface that allows outfit mod creators to easily int
 - [CNS Outfit Setup Guide](/guides/cns-outfit-setup.md)
 - [CNS JSON Setup Guide](/guides/cns-json-setup.md)
 - [CNS Icon Paths Guide](/guides/cns-icon-paths.md)
+- [CNS Mod Changelog](/guides/cns-changelog.md)
 
 
 ## Additional Guides
