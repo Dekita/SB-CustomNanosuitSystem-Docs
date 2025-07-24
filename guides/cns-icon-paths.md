@@ -167,6 +167,3 @@ Below is a list of path information for most of the default icons in the game. Y
     "/Game/Art/UI/Texture/Hair/HairIcon/Deco_Item_Hair_Christmas_01.Deco_Item_Hair_Christmas_01"
 ]
 ```
-
-CNS Compatible image (credit to [AzurieWolf](https://next.nexusmods.com/profile/AzurieWolf)) for modders to use in their mod page images. <3 
-<img src="https://github.com/Dekita/SB-CustomNanosuitSystem-Docs/blob/main/images/cns-compatible.png" style="margin-top: 28px;">
