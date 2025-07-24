@@ -33,7 +33,8 @@ Provides an in-game user interface that allows outfit mod creators to load custo
 - [CNS JSON Setup Guide](/guides/cns-json-setup.md)
 - [CNS Icon Paths Guide](/guides/cns-icon-paths.md)
 - [CNS Mod Changelog](/guides/cns-changelog.md)
-
+- [CNS Compatible Image]() for modders to use in their mod page images. 
+    - Credit to [AzurieWolf](https://next.nexusmods.com/profile/AzurieWolf) for the image <3
 
 ## Recommended Programs
 - [MS Visual Studio Code](https://code.visualstudio.com/) for editing json files
