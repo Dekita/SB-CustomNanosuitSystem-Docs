@@ -58,6 +58,7 @@ Example JSON:
 }
 ```
 String should contain any one (and only one) of the following values if required;
+- CheckSaveData-OutfitID (eg: CheckSaveData-BS_41) - checks if a particular outfit is already unlocked. 
 - TachyonDLC
 - DeluxeDLC
 - NikkeDLC

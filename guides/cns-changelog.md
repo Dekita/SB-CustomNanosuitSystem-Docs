@@ -4,6 +4,7 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 
 ## TODO: 
 - Add support for other characters (Adam, Lily, Drone, Other?..)
+- Make regular menu eve show cns equipped outfit.
 - Additional camera options/features (orbit/scroll to zoom)
 - Check custom skeletons and physics :)
 - ???
@@ -16,7 +17,12 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 - Added Button Text Position option (to align the text of outfit buttons).
 - UI now remembers previously selected outfit indexes correctly.
 - Added Angle/Orbit selector for camera controls
-- ???
+- Added `CheckSaveData` Requirement Type for modders to restrict outfits unless a default outfit is already unlocked. 
+- Added `Default` category and ALL default game outfits for EVE
+- Added defaults for hair, earings, and face accessories
+    - Default outfits etc will only show when unlocked (thanks nanosuit randomizer mod <3)
+- Moved description text to allow for much longer descriptiosn to show correctly 
+- Added open/close animation to camera control/description window area
 
 
 ## v1.5: 
