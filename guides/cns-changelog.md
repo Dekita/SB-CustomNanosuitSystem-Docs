@@ -4,6 +4,8 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 
 ## TODO: 
 - Add support for other characters (Adam, Lily, Drone, Other?..)
+- Subtext for selected outfit variation
+- Additional camera options/features
 - ???
 
 
