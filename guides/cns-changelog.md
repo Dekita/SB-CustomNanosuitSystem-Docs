@@ -4,13 +4,18 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 
 ## TODO: 
 - Add support for other characters (Adam, Lily, Drone, Other?..)
-- Subtext for selected outfit variation
-- Additional camera options/features
+- Additional camera options/features (orbit/scroll to zoom)
+- Check custom skeletons and physics :)
 - ???
 
 
 ## v1.6: (unreleased)
+- Fixed issue where only the absolute last selected item would be reloaded on world load. 
 - Fixed issue where previous outfit wouldnt be saved unless it had 'OutfitDatas' defined. (which most outfits dont) 
+- Added `OutfitNames` data, to display a subtext for selected outfit variations. 
+- Added Button Text Position option (to align the text of outfit buttons).
+- UI now remembers previously selected outfit indexes correctly.
+- Added Angle/Orbit selector for camera controls
 - ???
 
 
