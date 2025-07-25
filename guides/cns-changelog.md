@@ -21,7 +21,7 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 - Added `Default` category and ALL default game outfits for EVE
 - Added defaults for hair, earings, and face accessories
     - Default outfits etc will only show when unlocked (thanks nanosuit randomizer mod <3)
-- Moved description text to allow for much longer descriptiosn to show correctly 
+- Moved description text to allow for much longer descriptions to show correctly 
 - Added open/close animation to camera control/description window area
 
 
