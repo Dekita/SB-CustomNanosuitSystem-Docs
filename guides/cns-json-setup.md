@@ -150,6 +150,18 @@ Example JSON:
 ```
 
 
+## OutfitNamess `[string]` 
+An array of strings, where each string is used as a subtext for the outfit name. can be used to provide additional information for each variant/color. 
+
+Example JSON: 
+```json
+{
+    "OutfitNames": ["Red", "Green", "Blue", "..."],
+}
+```
+NOTE: the number of elements in this array should match the number of elements in either `OutfitPaths` or `OutfitDatas` (whichever one you are using)
+
+
 ## OutfitDatas `[object]` [optional] (ADVANCED)
 An array of outfit data objects, can be used to provide more granular control over custom outfits, giving access to material parameter configuration. If OutfitDatas is defined and has at least 1 element, then OutfitPaths will be ignored.
 
