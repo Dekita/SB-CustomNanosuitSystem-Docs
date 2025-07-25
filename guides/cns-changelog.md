@@ -10,7 +10,12 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 - ???
 
 
-## v1.6: (unreleased)
+## v1.7: (unreleased)
+- Fixed missing entries from default outfits file
+- 
+
+
+## v1.6: 
 - Fixed issue where only the absolute last selected item would be reloaded on world load. 
 - Fixed issue where previous outfit wouldnt be saved unless it had 'OutfitDatas' defined. (which most outfits dont) 
 - Added `OutfitNames` data, to display a subtext for selected outfit variations. 
