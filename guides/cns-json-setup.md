@@ -133,6 +133,10 @@ Example JSON:
 ```
 Notice: soft references have `/Game` as the root path rather than `SB/Content` or `Content`. The `Art` folder in this example, would be within the UE projects `Content/Art` folder. Additionally, notice the repeating of the asset name (`.NanoSuit_Icon_BS_20` in the above example) rather than `.uasset` or similar. This is also required for a soft reference to function correctly. 
 
+If you want to use a custom icon for your outfit, please aim to be as in-line with the default game icons as possible. This means, use a flat white icon with semi transparent areas. 
+
+Custom icons should be 256x256px, 128x128px or 64x64px - this is the size they will be displayed in the UI. Additionally, You should set the `compression settings` for the icon image inside unreal editor to use `BC7`, with `UI` set for the texture group. This will ensure your icon is prepared for use in UI's and retain as much quality as possible when displayed in-game.
+
 See [CNS Icon Quick Guide](/guides/cns-icon-paths.md) for a handy guide to default icons! <3 
 
 
