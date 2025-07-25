@@ -15,7 +15,7 @@ How to setup the [Custom Nanosuit System](https://www.nexusmods.com/stellarblade
 [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/????)
 - Download the latest release
 - Extract the files from within the downloaded zip folder
-- Copy the extracted `SB` folders, and merge it with your games `SB` folder. 
+- Copy the extracted `SB` folder, and merge it with your games `SB` folder. 
 - Done
 
 
