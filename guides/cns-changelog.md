@@ -17,6 +17,7 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 - Added scroll mouse to zoom feature
 - Slightly altered ui elements
 - Added camera light toggle
+- Esc now closes CNS UI
 
 
 ## v1.6: 
