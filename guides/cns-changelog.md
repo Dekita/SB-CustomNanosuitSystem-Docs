@@ -12,6 +12,7 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 
 ## v1.7: (unreleased)
 - Fixed missing entries from default outfits file
+- Added DefaultWeaponsTest.dekcns.json - These are the various weapons from other in-game characters, and are known to be buggy, but can be fun to play around with. 
 - Can now click option pips to select options
 - Added additional camera angle options
 - Added scroll mouse to zoom feature
