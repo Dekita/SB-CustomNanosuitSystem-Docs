@@ -9,6 +9,7 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 - Check custom skeletons and physics :)
 - Add favourites toggle for outfits
 - Add randomizer feature? 
+- save menu state for next load (cam position, mesh selection, list scroll, etc)
 - ???
 
 
