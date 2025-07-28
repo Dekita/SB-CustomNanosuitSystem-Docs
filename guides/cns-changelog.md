@@ -7,6 +7,8 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 - Make regular menu eve show cns equipped outfit?
 - Additional camera options/features (orbit/scroll to zoom)
 - Check custom skeletons and physics :)
+- Add favourites toggle for outfits
+- Add randomizer feature? 
 - ???
 
 
