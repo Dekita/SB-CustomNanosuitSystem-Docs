@@ -14,7 +14,7 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 
 
 ## v1.8: (unreleased)
-- ???
+- Fixed issue causing only specific json files to be allowed to define more than 10 entries. 
 - ???
 - ???
 
