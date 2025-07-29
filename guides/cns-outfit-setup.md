@@ -48,8 +48,7 @@ See the [CNS JSON Setup Guide](/guides/cns-json-setup.md) for detailed informati
 ## Detailed Steps: 4 - Naming Your Files
 Once your files are all setup and ready to be distributed to end users. It is HIGHLY recommended that you use a clear and detailed naming convention, this both helps keep things organized, and provides detail to users for which json file goes with which pak file etc. 
 
-Below is the recommended naming convention for CNS mods:
-`{AuthorName}CNS-{ModName}-{PackageChunkID}`
+The recommended naming convention for CNS mods: `{AuthorName}CNS-{ModName}-{PackageChunkID}`
 
 Where 
 - {ModName} - The name you have given to your mod.
