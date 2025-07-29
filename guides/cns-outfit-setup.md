@@ -7,6 +7,7 @@ How to setup your custom outfits for compatiblity with the [Custom Nanosuit Syst
 - Ensure your mod is fully working first (ie: create a regular asset replacement mod)
 - Move all custom files for your mod into a completely unique directory within your unreal engine project. (Recommended to use the `OutfitMods/YourModName` directory)
 - Configure the JSON file for your custom outfit, detailing the correct asset paths set in the previous step.
+- Name your files in a helpful way!!!
 
 
 ## Detailed Steps: 1 - Making Your Outfit
@@ -42,6 +43,28 @@ Once all of your custom assets, and the `Primary Asset Label` (or manual chunk i
 
 ## Detailed Steps: 3 - Configuring Your Outfit JSON
 See the [CNS JSON Setup Guide](/guides/cns-json-setup.md) for detailed information on configuring the json for your custom outfit. 
+
+
+## Detailed Steps: 4 - Naming Your Files
+Once your files are all setup and ready to be distributed to end users. It is HIGHLY recommended that you use a clear and detailed naming convention, this both helps keep things organized, and provides detail to users for which json file goes with which pak file etc. 
+
+Below is the recommended naming convention for CNS mods:
+`{AuthorName}CNS-{ModName}-{PackageChunkID}`
+
+Where 
+- {ModName} - The name you have given to your mod.
+- {AuthorName} - A short name to hlp identify the author of the mod.
+- {PackageChunkID} - The Chunk ID you used when packaging the mod files within unreal engine.
+
+For example: 
+```
+DekCNS-MyAwesomeMod-69.dekcns.json
+DekCNS-MyAwesomeMod-69.pak
+DekCNS-MyAwesomeMod-69.ucas
+DekCNS-MyAwesomeMod-69.utoc
+```
+
+Soemtimes you may see pak/utoc/ucas files with _P at the end of their name. Typically, Unreal Engine uses this to help identify which mods 'patch', or replace, existing game files. Since CNS mods should NOT be overriding ANY default game files, this isnt strictly required, but including it wont matter as long as you arent replacing default game files.. 
 
 
 ## Troubleshooting
