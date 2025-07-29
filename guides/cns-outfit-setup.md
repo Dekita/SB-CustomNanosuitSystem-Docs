@@ -63,12 +63,14 @@ DekCNS-MyAwesomeMod-69.ucas
 DekCNS-MyAwesomeMod-69.utoc
 ```
 
-Soemtimes you may see pak/utoc/ucas files with _P at the end of their name. Typically, Unreal Engine uses this to help identify which mods 'patch', or replace, existing game files. Since CNS mods should NOT be overriding ANY default game files, this isnt strictly required, but including it wont matter as long as you arent replacing default game files.. 
+Sometimes you may see pak/utoc/ucas files with _P at the end of their name. Typically, Unreal Engine uses this to help identify which mods 'patch', or replace, existing game files. Since CNS mods should NOT be overriding ANY default game files, this isnt strictly required, but including it wont matter as long as you arent replacing default game files.. 
 
 
 ## Troubleshooting
 - Use [FModel](https://github.com/4sval/FModel) to inspect the files within your packaged mod
 - Use [MS Visual Studio Code](https://code.visualstudio.com/) to ensure your json is valid. it will provide syntax highlighting, and json specific extensions can be installed for additional readability etc. 
+- Use [Pak Mod Audit Tool](https://www.nexusmods.com/stellarblade/mods/1632) to audit your mod files. This will give you information on conflicting assets (both against default game files, and other mod files), as well as chunk id conflicts. 
+- Use [Mod Pak Chunk ID Patcher](https://www.nexusmods.com/stellarblade/mods/861) to patch mods with conflicting chunk ID's.
 - Join my [Discord Support Server](https://discord.gg/DCXh2TUF2u) if you need some additional guidance in getting things setup for your own mod. 
 
 
