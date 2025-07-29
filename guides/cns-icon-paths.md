@@ -1,3 +1,13 @@
+# Custom Icons
+If you are supplying a custom icon for your CNS outfit, I ask that you keep in line with how the default outfit icons are presented to ensure uniformity and consistency across mods. ie: a basic flat white icon. 
+
+Custom icons should be sized to 256x256px, with 60 pixels of padding on the edges. This leaves a space of 136x136px for the actual icon image. 
+
+Custom icon textures should be set to use BC7 compression, and UI texture group!!
+
+Using these specifications will ensure your icon always looks nice and crispy within the interface, and that it wont overflow or overlay with other elements in the interface. <3 
+
+
 # Icon Texture Path Info
 Below is a list of path information for most of the default icons in the game. You can easily copy the string for your desired icon and paste it in for the `OutfitImage` in your outfits json configuration. 
 
