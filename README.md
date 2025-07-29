@@ -39,8 +39,8 @@ Provides an in-game user interface that allows outfit mod creators to load custo
 ## Recommended Programs
 - [MS Visual Studio Code](https://code.visualstudio.com/) for editing json files
 - [Unreal Engine 4.26](https://www.unrealengine.com/en-US/blog/unreal-engine-4-26-released) for creating outfit mods
-- [Pak Mod Audit Tool](https://www.nexusmods.com/stellarblade/mods/1632) to audit your mod files. This will give you information on conflicting assets (both against default game files, and other mod files), as well as chunk id conflicts. 
-- [Mod Pak Chunk ID Patcher](https://www.nexusmods.com/stellarblade/mods/861) to patch mods with conflicting chunk ID's.
+- [Pak Mod Audit Tool](https://www.nexusmods.com/stellarblade/mods/1632) to audit your mod files
+- [Mod Pak Chunk ID Patcher](https://www.nexusmods.com/stellarblade/mods/861) to patch mods with conflicting chunk ID's
 
 
 ## Additional Guides
