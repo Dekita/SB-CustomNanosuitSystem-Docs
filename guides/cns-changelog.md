@@ -16,9 +16,12 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 ## v1.8: (unreleased)
 - Fixed issue with DefaultWeapons.dekcns.json not loading all entries
 - Fixed issue causing only specific json files to be allowed to define more than 10 entries. 
+- Fixed `ParamDatas` showing previously selected model materials when `Materials` data empty. 
 - Selection arrows now allow wrapping (can click > arrow to go back to first option when at last option) 
+- Added favourite outfits. (press F to toggle currently hovered outfit as favourite)
 - Added `MeshSubType` configuration (only currently used for `Ponytail` option)
 - Added Hair/Ponytail selection when in hair menu. 
+- Improved UI element consistency
 - ???
 
 
