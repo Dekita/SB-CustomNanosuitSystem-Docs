@@ -63,3 +63,50 @@ Example JSON:
     - When param type is Vector, this should be an array of 4 float values, for RGBA. 
     - When param type is Texture, this should be a soft reference string for the texture path. 
 Most of this information can be found from within the fmodels exported json data for the material you are controlling. 
+
+
+## UserConfigs `object` [optional] (VERY-ADVANCED)
+`UserConfigs` is an object that defines user customizable properties within your model. For example, you may want to have modular materials that can be toggled on/off, or allow certain textures to be selectable for specific areas within your model. The `UserConfigs` configuration is designed specifically for this! It allows for user controllable shape keys, material toggles, scalar controls, vector controls, and texture options. 
+
+All properties within the `UserConfigs` object are required, even if their array is unused/empty. The system purposely checks to ensure these proeprties are defined and throws an error otherwise. 
+
+```json
+{
+    "UserConfigs": {
+        "ShapeKeys": [],
+        "MaterialToggles": [],
+        "ScalarControls": [],
+        "VectorControls": [],
+        "TextureOptions": []
+    }
+}
+```
+
+Each configurable property has slightly different setup as detailed below;
+
+### UserConfigs.ShapeKeys `[object]` [required] 
+
+```json
+{
+    "UserConfigs": {
+        "ShapeKeys": [
+            {
+                "Name": "Upper",
+                "Desc": "Upper Body Shape Key",
+                "Min": 0.0,
+                "Max": 1.0,
+                "Step": 0.01,
+                "Value": 0.5
+            }
+        ]
+    }
+}
+```
+- Name `string` - Defines the name of the shape key to be used. This should match the name of the shape key on the mesh.
+- Desc `string` - The description shown to the player when they hover over the configurable slider for this option.
+- Min `float` - The minimum possible allowed value for this shape key slider.
+- Max `float` - The maximum possible allowed value for this shape key slider.
+- Step `float` - The change each 'step' of the slider will move. 
+- Value `float` - The default value for the slider. 
+
+
