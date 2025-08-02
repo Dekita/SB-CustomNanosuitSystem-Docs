@@ -228,3 +228,80 @@ Each configurable property has slightly different setup as detailed below;
 - Textures `[string]` - An array of soft reference strings for each texture to use when this option is selected. 
 - Value `integer` - The index within the `Textures` array to use as the default value for this option. 
 
+
+## UserConfigs Complete Example 
+```json
+{
+    "UserConfigs": {
+        "ShapeKeys": [
+            {
+                "Name": "Upper",
+                "Desc": "Upper Body Shape Key",
+                "Min": 0.0,
+                "Max": 1.0,
+                "Step": 0.01,
+                "Value": 0.5
+            }
+        ],
+        "MaterialToggles": [
+            {
+                "Name": "Toggle Material",
+                "Desc": "Toggle Material for index 1",
+                "MaterialIndex": 1,
+                "Value": true
+            }
+        ],
+        "ScalarControls": [
+            {
+                "Name": "Some Scalar Name",
+                "Desc": "Description for Some Scalar Name",
+                "ParamName": "SomeScalarName",
+                "Association": "Global",
+                "LayerIndex": -1,
+                "MaterialIndex": 0,
+                "Value": 1.0
+            }
+        ],
+        "VectorControls": [
+            {
+                "Name": "Some Vector Name",
+                "Desc": "Description for Some Vector Name",
+                "ParamName": "SomeVectorName",
+                "Association": "Global",
+                "LayerIndex": -1,
+                "MaterialIndex": 1,
+                "Value": [1.0, 0.0, 0.0, 1.0]
+            }
+        ],
+        "TextureOptions": [
+            {
+                "Name": "Some Texture Name",
+                "Desc": "Description for Some Texture Name",
+                "MaterialIndex": 0,
+                "Association": "Global",
+                "ParamName": "BaseColor",
+                "LayerIndex": -1,
+                "OptionNames": [
+                    "Black",
+                    "White",
+                    "Red"
+                ],
+                "Textures": [
+                    "/Game/OutfitMods/SomeAwesomeMod/Textures/Black_A.Black_A",
+                    "/Game/OutfitMods/SomeAwesomeMod/Textures/White_A.White_A",
+                    "/Game/OutfitMods/SomeAwesomeMod/Textures/Red_A.Red_A"
+                ],
+                "Value": 0
+            }
+        ]
+    }
+}
+```
+
+<div align="center">
+
+[![Discord](https://img.shields.io/discord/1132980259596271657?logo=discord&style=for-the-badge&logoColor=e4e4e4&label=Support%20Server)](https://discord.gg/WyTdramBkm)
+[![Support on Patreon](https://img.shields.io/badge/Support-Patreon-orange?logo=patreon&style=for-the-badge)](https://www.patreon.com/DekitaRPG)
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-0070BA?logo=paypal&style=for-the-badge)](https://www.paypal.me/DekitaRPG)
+
+</div>
