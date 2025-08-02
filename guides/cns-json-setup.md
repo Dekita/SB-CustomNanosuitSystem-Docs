@@ -210,7 +210,7 @@ Here is a complete FUNCTIONAL example setup for an outfit from the default game.
 ```
 
 ## Advanced JSON
-See [CNS JSON Advanced](/guides/cns-josn-advanced.md) for a guide to the more advanced features of CNS!!  
+See [CNS JSON Advanced](/guides/cns-json-advanced.md) for a guide to the more advanced features of CNS!!  
 
 
 <div align="center">

@@ -31,7 +31,7 @@ Provides an in-game user interface that allows outfit mod creators to load custo
 - [CNS Mod Setup Guide](/guides/cns-mod-setup.md)
 - [CNS Outfit Setup Guide](/guides/cns-outfit-setup.md)
 - [CNS JSON Basic Setup Guide](/guides/cns-json-setup.md) the basic setup for modders new to CNS!
-- [CNS JSON Advanced Features](/guides/cns-josn-advanced.md) the more advanced features of CNS!!
+- [CNS JSON Advanced Features](/guides/cns-json-advanced.md) the more advanced features of CNS!!
 - [CNS Icon Paths Guide](/guides/cns-icon-paths.md)
 - [CNS Mod Changelog](/guides/cns-changelog.md)
 - [CNS Compatible Image](/images/cns-compatible.png) for modders to use in their mod page images. 
