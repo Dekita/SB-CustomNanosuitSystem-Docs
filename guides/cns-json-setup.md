@@ -1,5 +1,3 @@
-
-
 # Custom Nanosuit System JSON structure
 How to add your own mods configuration options into the [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/1496) interface by dekitarpg@gmail.com. 
 
