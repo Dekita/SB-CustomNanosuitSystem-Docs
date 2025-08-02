@@ -12,7 +12,12 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 - ???
 
 
-## v1.8: (unreleased)
+## v1.9: (unreleased)
+- ???
+
+
+## v1.8: 
+- Added BETA feature - configurable blend shapes, material toggles, scalar controls, vector controls, and texture options (doesnt save data atm, please dont release mods using these features until the v1.9 update) 
 - Fixed issue with DefaultWeapons.dekcns.json not loading all entries
 - Fixed issue causing only specific json files to be allowed to define more than 10 entries. 
 - Fixed `ParamDatas` showing previously selected model materials when `Materials` data empty. 
@@ -25,7 +30,6 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 - Added Hair/Ponytail selection when in hair menu. 
 - Added help descriptions for all UI elements. 
 - Improved UI element consistency
-- ???
 
 
 ## v1.7: 
