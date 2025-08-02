@@ -107,6 +107,11 @@ Can be any one of the following values; (case sensitive)
 - Weapon
 
 
+# MeshSubType `string` [optional] (used for ponytail only)
+Used inconjunction with `FitMeshType` to set the subtype for the mesh. Currently only used for the Ponytail subtype, when Hair mesh type is set. 
+- PonyTail
+
+
 ## OutfitTypes `[string]` [optional]
 A string array containing the type(s) of outfit the "Object" is defining. Only valid for when `FitMeshType` is equal to `Body` (or empty). 
 
