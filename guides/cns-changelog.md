@@ -4,12 +4,11 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 
 ## TODO: 
 - Add support for other characters (Adam, Lily, Drone, Other?..)
-- Make regular menu eve show cns equipped outfit?
-- Additional camera options/features (orbit/scroll to zoom)
-- Check custom skeletons and physics :)
-- Add favourites toggle for outfits
-- Add randomizer feature? 
 - save menu state for next load (cam position, mesh selection, list scroll, etc)
+- Make regular menu eve show cns equipped outfit?
+- Check custom skeletons and physics :)
+- Add randomizer feature? 
+- unique default icons based on equip mesh type/ sub type
 - ???
 
 
@@ -19,6 +18,8 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 - Fixed `ParamDatas` showing previously selected model materials when `Materials` data empty. 
 - Fixed `Reset Saved Data` now properly resets saved UI Hue, and text alignment data.
 - Selection arrows now allow wrapping (can click > arrow to go back to first option when at last option) 
+- Fixed issue where slider elements could not be click+dragged. 
+- Added `search` feature with text input area / clear search buttons.
 - Added favourite outfits. (press F to toggle currently hovered outfit as favourite)
 - Added `MeshSubType` configuration (only currently used for `Ponytail` option)
 - Added Hair/Ponytail selection when in hair menu. 
@@ -90,9 +91,12 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 - Added outfit cache (so that outfits are not loaded every time the ui opens, but only once per session)
     - cache setting can be toggled in main.lua
 
+
 ## v1.2:
 - Added support for Face, Hair, Earings, Glasses, and Weapons!!
 - Seperated SkinSuit++ Example into additional mod file to reduce download size..
 
+
 ## v1.1:
 - Fixed mouse cursor not displaying.
+
