@@ -1,3 +1,6 @@
+# Custom Nanosuit System ADVANCED JSON structures
+How to add ADVANCED configuration options into the [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/1496) interface by dekitarpg@gmail.com. 
+
 
 # OutfitDatas `[object]` [optional] (ADVANCED)
 An array of outfit data objects, can be used to provide more granular control over custom outfits, giving access to material parameter configuration. If OutfitDatas is defined and has at least 1 element, then OutfitPaths will be ignored.
