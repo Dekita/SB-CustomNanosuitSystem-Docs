@@ -28,12 +28,13 @@ Provides an in-game user interface that allows outfit mod creators to load custo
 
 
 ## Help Guides
-- [CNS Mod Setup Guide](/guides/cns-mod-setup.md)
-- [CNS Outfit Setup Guide](/guides/cns-outfit-setup.md)
+- [CNS Mod Setup Guide](/guides/cns-mod-setup.md) Struggling to setup the CNS mod? See here for info!!
+- [CNS Outfit Setup Guide](/guides/cns-outfit-setup.md) Details on how to make your outfit compatible. 
 - [CNS JSON Basic Setup Guide](/guides/cns-json-setup.md) the basic setup for modders new to CNS!
 - [CNS JSON Advanced Features](/guides/cns-json-advanced.md) the more advanced features of CNS!!
-- [CNS Icon Paths Guide](/guides/cns-icon-paths.md)
-- [CNS Mod Changelog](/guides/cns-changelog.md)
+- [CNS Helper Scripts](/guides/cns-helper-scripts.md) Various scripts to help CNS mod development. 
+- [CNS Icon Paths Guide](/guides/cns-icon-paths.md) Default game icon images for easy reference.
+- [CNS Mod Changelog](/guides/cns-changelog.md) Complete changelog for the main CNS mod. 
 - [CNS Compatible Image](/images/cns-compatible.png) for modders to use in their mod page images. 
     - Credit to [AzurieWolf](https://next.nexusmods.com/profile/AzurieWolf) for the image <3
 
