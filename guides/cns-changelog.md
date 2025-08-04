@@ -17,6 +17,7 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 - Toggle button to auto hide weapon when not in battle (hides hairpin model thing)
 - Updated all default hairstyles to use new `UserConfigs` setup, allowing complete color customization. 
 - `UserConfigs` data is now properly saved/re-applied on game load. 
+- `UserConfigs` now accepts a string, for a `UniqueOutfitID` from the same file for which to load the config from (for models that have the same exposed parameters)
 - ???
 
 
