@@ -14,6 +14,7 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 
 ## v1.9: (unreleased)
 - Moved system configuration options from main.lua into config.lua file. 
+- Toggle button to auto hide weapon when not in battle (hides hairpin model thing)
 - `UserConfigs` data is now properly saved/re-applied on game load. 
 - ???
 
