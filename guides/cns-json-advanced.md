@@ -151,6 +151,9 @@ Each configurable property has slightly different setup as detailed below;
                 "Association": "Global",
                 "LayerIndex": -1,
                 "MaterialIndex": 0,
+                "Min": 0.0,
+                "Max": 1.0,
+                "Step": 0.01,
                 "Value": 1.0
             }
         ]
@@ -163,6 +166,9 @@ Each configurable property has slightly different setup as detailed below;
 - Association `string` - The association type for this parameter (can be Layer, Blend, or Global)
 - LayerIndex `integer` - The index of the layer that this parameter should affect.
 - ParamName `string` - The name of the scalar parameter this slider is controlling. Should match (case sensitive) with the name in the material.
+- Min `float` - The minimum possible allowed value for this slider.
+- Max `float` - The maximum possible allowed value for this slider.
+- Step `float` - The change each 'step' of the slider will move. 
 - Value `float` - The default value for the slider. 
 
 
@@ -190,6 +196,9 @@ Each configurable property has slightly different setup as detailed below;
 - Association `string` - The association type for this parameter (can be Layer, Blend, or Global)
 - LayerIndex `integer` - The index of the layer that this parameter should affect.
 - ParamName `string` - The name of the vector parameter this is controlling. Should match (case sensitive) with the name in the material.
+- Min `[float]` - The minimum possible allowed values for each slider within the vector.
+- Max `[float]` - The maximum possible allowed values for each slider within the vector.
+- Step `[float]` - The change each 'step' each slider within the vector will move. 
 - Value `[float]` - The default value for the vector. An array of [r, g, b, a] float values. 1.0 = 255 in 256 bit color format. 
 
 
@@ -262,6 +271,9 @@ Each configurable property has slightly different setup as detailed below;
                 "Association": "Global",
                 "LayerIndex": -1,
                 "MaterialIndex": 0,
+                "Min": 0.0,
+                "Max": 1.0,
+                "Step": 0.01,
                 "Value": 1.0
             }
         ],
@@ -273,6 +285,9 @@ Each configurable property has slightly different setup as detailed below;
                 "Association": "Global",
                 "LayerIndex": -1,
                 "MaterialIndex": 1,
+                "Min": [0.0, 0.0, 0.0, 0.0],
+                "Max": [1.0, 1.0, 1.0, 1.0],
+                "Step": [0.01, 0.01, 0.01, 0.01],
                 "Value": [1.0, 0.0, 0.0, 1.0]
             }
         ],
