@@ -17,8 +17,11 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 - Toggle button to auto hide weapon when not in battle (hides hairpin model thing)
 - Saved CNS data will now auto reset when new mod version detection to ensure compatibility with latest features. 
 - Updated all default hairstyles to use new `UserConfigs` setup, allowing complete color customization. 
-- `UserConfigs` now accepts a string, for a `UniqueOutfitID` from the same file for which to load the config from (for models that have the same exposed parameters)
-- `UserConfigs` data is now properly saved/re-applied on game load. 
+- Updated Default EVE face to use new `UserConfigs` setup, allowing for complete control over her eyes.
+- `UserConfigs` data is now properly saved and re-applied on game load / map transfer. 
+- `UserConfigs` now accepts a string, for a `UniqueOutfitID` within the same file for which to load the config from (for models that have the same exposed parameters)
+- `UserConfigs` data structure now considered stable. See updated documentation for all details. 
+- Fixed WB_ToggleButton, so clicking its option pips properly trigger whatever change they should.
 - ???
 
 
