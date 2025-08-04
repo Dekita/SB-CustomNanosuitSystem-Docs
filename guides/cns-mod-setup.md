@@ -5,7 +5,7 @@ How to setup the [Custom Nanosuit System](https://www.nexusmods.com/stellarblade
 
 ## Install The Latest Stellar Blade UE4SS Release
 [UE4SS For Stellar Blade](https://github.com/Chrisr0/RE-UE4SS)
-- Download the latest release
+- Download the latest release (**NOT THE DEV VERSION**)
 - Extract the files from within the downloaded zip folder
 - Copy the extracted ue4ss folder, and dwmapi.dll files to your games `SB/Binaries/Win64` folder 
 - Done
@@ -48,6 +48,7 @@ When installation is complete, you should have the following structure within yo
         - DekCNS_P.utoc
         
 ## Common Issues
+- **OPEN CNS MENU FROM THE GAME WORLD. NOT WHILE IN MENU!!**
 - **Pause Screen Freezing Game** - This occurs when you are playing in Fullscreen mode, and alt+tab out of the game. When you return to the game screen, it will have automatically paused. Simple switch from `Fullscreen` to `Borderless Window Mode`. The game will still seem fullscreen, but it will no longer pause when you alt+tab to other screens. 
 - {ComingSoon..}
 
