@@ -29,6 +29,7 @@ Provides an in-game user interface that allows outfit mod creators to load custo
 
 ## Help Guides
 - [CNS Mod Setup Guide](/guides/cns-mod-setup.md) Struggling to setup the CNS mod? See here for info!!
+- [CNS Mod Config Options](/guides/cns-mod-config.md) Information on various configuration options.
 - [CNS Outfit Setup Guide](/guides/cns-outfit-setup.md) Details on how to make your outfit compatible. 
 - [CNS JSON Basic Setup Guide](/guides/cns-json-setup.md) the basic setup for modders new to CNS!
 - [CNS JSON Advanced Features](/guides/cns-json-advanced.md) the more advanced features of CNS!!
