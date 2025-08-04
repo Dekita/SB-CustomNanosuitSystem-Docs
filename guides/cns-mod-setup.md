@@ -46,11 +46,16 @@ When installation is complete, you should have the following structure within yo
         - DekCNS_P.pak
         - DekCNS_P.ucas
         - DekCNS_P.utoc
-        
+
+
+## Configuration Information
+[CNS Mod Config Options](/guides/cns-mod-config.md) 
+
 ## Common Issues
 - **OPEN CNS MENU FROM THE GAME WORLD. NOT WHILE IN MENU!!**
 - **Pause Screen Freezing Game** - This occurs when you are playing in Fullscreen mode, and alt+tab out of the game. When you return to the game screen, it will have automatically paused. Simple switch from `Fullscreen` to `Borderless Window Mode`. The game will still seem fullscreen, but it will no longer pause when you alt+tab to other screens. 
 - {ComingSoon..}
+
 
 
 ## Troubleshooting
