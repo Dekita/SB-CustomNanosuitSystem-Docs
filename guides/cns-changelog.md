@@ -13,6 +13,8 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 
 
 ## v1.9: (unreleased)
+- Moved system configuration options from main.lua into config.lua file. 
+- `UserConfigs` data is now properly saved/re-applied on game load. 
 - ???
 
 
