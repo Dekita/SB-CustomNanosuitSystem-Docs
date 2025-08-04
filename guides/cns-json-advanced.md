@@ -230,7 +230,7 @@ Each configurable property has slightly different setup as detailed below;
     }
 }
 ```
-- Name `string` - Defines the name of the shape key to be used. This should match the name of the shape key on the mesh.
+- Name `string` - Defines the display name shown for this option. 
 - Desc `string` - The description shown to the player when they hover over the configurable slider for this option.
 - MaterialIndex `integer` - Determines the material slot this vector will affect. 
 - Association `string` - The association type for this parameter (can be Layer, Blend, or Global)
