@@ -70,8 +70,6 @@ Most of this information can be found from within the fmodels exported json data
 
 
 # UserConfigs `object` [optional] (VERY-ADVANCED)
-| :exclamation: THIS CONFIGURATION IS SUBJECT TO CHANGE UNTIL V1.9 OF CNS! |
-|---|
 
 `UserConfigs` is an additional property that can be added to the base json structure. It contains an object that defines user customizable properties within your model. For example, you may want to have modular materials that can be toggled on/off, or allow certain textures to be selectable for specific areas within your model. The `UserConfigs` configuration is designed specifically for this! It allows for user controllable shape keys, material toggles, scalar controls, vector controls, and texture options. 
 
