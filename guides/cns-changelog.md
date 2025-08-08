@@ -2,26 +2,26 @@
 Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/1496) by dekitarpg@gmail.com. 
 
 
-## TODO: 
-- Add support for other characters (Adam, Lily, Drone, Other?..)
-- save menu state for next load (cam position, mesh selection, list scroll, etc)
-- Make regular menu eve show cns equipped outfit?
-- Check custom skeletons and physics :)
-- Add randomizer feature? 
-- unique default icons based on equip mesh type/ sub type
-- ???
-
-
-## v1.9: (unreleased)
+## v1.9: 
+- Added Lily, Adam, and Drone outfit support!!
 - Moved system configuration options from main.lua into config.lua file. 
+- Added configuration for hairpin toggle, favourite toggle, and ui toggle buttons. 
+- Added Hotkeys to control hairpin toggle, and show/side ui toggle. 
 - Toggle button to auto hide weapon when not in battle (hides hairpin model thing)
-- Saved CNS data will now auto reset when new mod version detection to ensure compatibility with latest features. 
+- Reduced UI loading lag by batching button creation over time. UI Now displays loading spinner while loading entries. 
+- Added Show/Hide UI option, so you can easily take nice screenshots without actually leaving the CNS UI.
+- Saved CNS data will now auto reset when new mod version detected to ensure compatibility with latest features. 
 - Updated all default hairstyles to use new `UserConfigs` setup, allowing complete color customization. 
 - Updated Default EVE face to use new `UserConfigs` setup, allowing for complete control over her eyes.
 - `UserConfigs` data is now properly saved and re-applied on game load / map transfer. 
 - `UserConfigs` now accepts a string, for a `UniqueOutfitID` within the same file for which to load the config from (for models that have the same exposed parameters)
-- `UserConfigs` data structure now considered stable. See updated documentation for all details. 
+- `UserConfigs` data structure now considered stable. See updated documentation for all details. Some properties slightly changed. 
+- `UserConfigs.VectorControls` now accepts a `Sliders` [boolean] to determine available slider controls. 
+- Added `ControlledBy` option to `UserConfigs`, to allow for one configuration to control another. (Used to make multiple changes happen with one slider/toggle/option button)
 - Fixed WB_ToggleButton, so clicking its option pips properly trigger whatever change they should.
+- Added some color options for the default game weapon. 
+- Added Batch Enabled / Batch Count settings.
+- Added Auto Load CNS Data setting.
 - ???
 
 

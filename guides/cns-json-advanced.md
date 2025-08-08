@@ -99,8 +99,10 @@ Each configurable property has slightly different setup as detailed below;
     "UserConfigs": {
         "ShapeKeys": [
             {
-                "Name": "Upper",
-                "Desc": "Upper Body Shape Key",
+                "DisplayName": "Upper",
+                "Description": "Upper Body Shape Key",
+                "ShapeKeyName": "Upper",
+                "ControlledBy": "OtherShapeKeyDisplayName",
                 "Min": 0.0,
                 "Max": 1.0,
                 "Step": 0.01,
@@ -110,12 +112,14 @@ Each configurable property has slightly different setup as detailed below;
     }
 }
 ```
-- Name `string` - Defines the name of the shape key to be used. This should match the name of the shape key on the mesh.
-- Desc `string` - The description shown to the player when they hover over the configurable slider for this option.
+- DisplayName `string` - Defines the display name for this shape key controller within the ui.
+- Description `string` - The description shown to the player when they hover over the configurable slider for this option.
+- ShapeKeyName `string` - Defines the actual shape key to be used. This should match the name of the shape key on the mesh.
 - Min `float` - The minimum possible allowed value for this shape key slider.
 - Max `float` - The maximum possible allowed value for this shape key slider.
 - Step `float` - The change each 'step' of the slider will move. 
 - Value `float` - The default value for the slider. 
+- ControlledBy `string` [optional] - Makes this shape key controlled by another controller, defined by the given display name. This will cause the controls for this element to be hidden! 
 
 
 ## UserConfigs.MaterialToggles `[object]` [required]
@@ -124,8 +128,9 @@ Each configurable property has slightly different setup as detailed below;
     "UserConfigs": {
         "MaterialToggles": [
             {
-                "Name": "Toggle Material",
-                "Desc": "Toggle Material for index 1",
+                "DisplayName": "Toggle Material",
+                "Description": "Toggle Material for index 1",
+                "ControlledBy": "OtherMaterialToggleDisplayName",
                 "MaterialIndex": 1,
                 "Value": true
             }
@@ -133,10 +138,11 @@ Each configurable property has slightly different setup as detailed below;
     }
 }
 ```
-- Name `string` - Defines the name shown within the ui for this toggle.
-- Desc `string` - The description shown to the player when they hover over the toggle.
+- DisplayName `string` - Defines the name shown within the ui for this toggle.
+- Description `string` - The description shown to the player when they hover over the toggle.
 - MaterialIndex `integer` - Determines the material slot this toggle will affect. 
 - Value `boolean` - The default boolean value for the toggle. 
+- ControlledBy `string` [optional] - Makes this material toggle controlled by another controller, defined by the given display name. This will cause the controls for this element to be hidden! 
 
 
 ## UserConfigs.ScalarControls `[object]` [required]
@@ -145,8 +151,9 @@ Each configurable property has slightly different setup as detailed below;
     "UserConfigs": {
         "ScalarControls": [
             {
-                "Name": "Some Scalar Name",
-                "Desc": "Description for Some Scalar Name",
+                "DisplayName": "Some Scalar Name",
+                "Description": "Description for Some Scalar Name",
+                "ControlledBy": "OtherScalarDisplayName",
                 "ParamName": "SomeScalarName",
                 "Association": "Global",
                 "LayerIndex": -1,
@@ -160,8 +167,8 @@ Each configurable property has slightly different setup as detailed below;
     }
 }
 ```
-- Name `string` - Defines the name of the scalar shown within the interface. 
-- Desc `string` - The description shown to the player when they hover over the configurable slider for this option.
+- DisplayName `string` - Defines the name of the scalar shown within the interface. 
+- Description `string` - The description shown to the player when they hover over the configurable slider for this option.
 - MaterialIndex `integer` - Determines the material slot this scalar will affect. 
 - Association `string` - The association type for this parameter (can be Layer, Blend, or Global)
 - LayerIndex `integer` - The index of the layer that this parameter should affect.
@@ -170,6 +177,7 @@ Each configurable property has slightly different setup as detailed below;
 - Max `float` - The maximum possible allowed value for this slider.
 - Step `float` - The change each 'step' of the slider will move. 
 - Value `float` - The default value for the slider. 
+- ControlledBy `string` [optional] - Makes this scalar controlled by another controller, defined by the given display name. This will cause the controls for this element to be hidden! 
 
 
 ## UserConfigs.VectorControls `[object]` [required]
@@ -178,20 +186,22 @@ Each configurable property has slightly different setup as detailed below;
     "UserConfigs": {
         "VectorControls": [
             {
-                "Name": "Some Vector Name",
-                "Desc": "Description for Some Vector Name",
+                "DisplayName": "Some Vector Name",
+                "Description": "Description for Some Vector Name",
+                "ControlledBy": "OtherVectorDisplayName",
                 "ParamName": "SomeVectorName",
                 "Association": "Global",
                 "LayerIndex": -1,
                 "MaterialIndex": 1,
+                "Sliders": [true, true, true, false],
                 "Value": [1.0, 0.0, 0.0, 1.0]
             }
         ]
     }
 }
 ```
-- Name `string` - The display name of the vector to be shown within the ui. 
-- Desc `string` - The description shown to the player when they hover over the configurable slider for this option.
+- DisplayName `string` - The display name of the vector to be shown within the ui. 
+- Description `string` - The description shown to the player when they hover over the configurable slider for this option.
 - MaterialIndex `integer` - Determines the material slot this vector will affect. 
 - Association `string` - The association type for this parameter (can be Layer, Blend, or Global)
 - LayerIndex `integer` - The index of the layer that this parameter should affect.
@@ -200,6 +210,7 @@ Each configurable property has slightly different setup as detailed below;
 - Max `[float]` - The maximum possible allowed values for each slider within the vector.
 - Step `[float]` - The change each 'step' each slider within the vector will move. 
 - Value `[float]` - The default value for the vector. An array of [r, g, b, a] float values. 1.0 = 255 in 256 bit color format. 
+- ControlledBy `string` [optional] - Makes this vector controlled by another controller, defined by the given display name. This will cause the controls for this element to be hidden! 
 
 
 ## UserConfigs.TextureOptions `[object]` [required]
@@ -208,8 +219,9 @@ Each configurable property has slightly different setup as detailed below;
     "UserConfigs": {
         "TextureOptions": [
             {
-                "Name": "Some Texture Name",
-                "Desc": "Description for Some Texture Name",
+                "DisplayName": "Some Texture Name",
+                "Description": "Description for Some Texture Name",
+                "ControlledBy": "OtherTextureOptionDisplayName",
                 "MaterialIndex": 0,
                 "Association": "Global",
                 "ParamName": "BaseColor",
@@ -230,8 +242,8 @@ Each configurable property has slightly different setup as detailed below;
     }
 }
 ```
-- Name `string` - Defines the display name shown for this option. 
-- Desc `string` - The description shown to the player when they hover over the configurable slider for this option.
+- DisplayName `string` - Defines the display name shown for this option. 
+- Description `string` - The description shown to the player when they hover over the configurable slider for this option.
 - MaterialIndex `integer` - Determines the material slot this vector will affect. 
 - Association `string` - The association type for this parameter (can be Layer, Blend, or Global)
 - LayerIndex `integer` - The index of the layer that this parameter should affect.
@@ -239,6 +251,7 @@ Each configurable property has slightly different setup as detailed below;
 - OptionNames `[string]` - An array of strings to display as subtext for each option within the `Textures` section when selected.
 - Textures `[string]` - An array of soft reference strings for each texture to use when this option is selected. 
 - Value `integer` - The index within the `Textures` array to use as the default value for this option. 
+- ControlledBy `string` [optional] - Makes this texture option controlled by another controller, defined by the given display name. This will cause the controls for this element to be hidden! The number of elements within the Textures array should match that of the selected controller. 
 
 
 ## UserConfigs Complete Example 
@@ -247,8 +260,9 @@ Each configurable property has slightly different setup as detailed below;
     "UserConfigs": {
         "ShapeKeys": [
             {
-                "Name": "Upper",
-                "Desc": "Upper Body Shape Key",
+                "DisplayName": "Upper Size",
+                "Description": "Upper Body Shape Key",
+                "ShapeKeyName": "Upper",
                 "Min": 0.0,
                 "Max": 1.0,
                 "Step": 0.01,
@@ -257,16 +271,16 @@ Each configurable property has slightly different setup as detailed below;
         ],
         "MaterialToggles": [
             {
-                "Name": "Toggle Material",
-                "Desc": "Toggle Material for index 1",
+                "DisplayName": "Toggle Material",
+                "Description": "Toggle Material for index 1",
                 "MaterialIndex": 1,
                 "Value": true
             }
         ],
         "ScalarControls": [
             {
-                "Name": "Some Scalar Name",
-                "Desc": "Description for Some Scalar Name",
+                "DisplayName": "Some Scalar Name",
+                "Description": "Description for Some Scalar Name",
                 "ParamName": "SomeScalarName",
                 "Association": "Global",
                 "LayerIndex": -1,
@@ -279,8 +293,8 @@ Each configurable property has slightly different setup as detailed below;
         ],
         "VectorControls": [
             {
-                "Name": "Some Vector Name",
-                "Desc": "Description for Some Vector Name",
+                "DisplayName": "Some Vector Name",
+                "Description": "Description for Some Vector Name",
                 "ParamName": "SomeVectorName",
                 "Association": "Global",
                 "LayerIndex": -1,
@@ -288,13 +302,14 @@ Each configurable property has slightly different setup as detailed below;
                 "Min": [0.0, 0.0, 0.0, 0.0],
                 "Max": [1.0, 1.0, 1.0, 1.0],
                 "Step": [0.01, 0.01, 0.01, 0.01],
+                "Sliders": [true, true, true, false],
                 "Value": [1.0, 0.0, 0.0, 1.0]
             }
         ],
         "TextureOptions": [
             {
-                "Name": "Some Texture Name",
-                "Desc": "Description for Some Texture Name",
+                "DisplayName": "Some Texture Name",
+                "Description": "Description for Some Texture Name",
                 "MaterialIndex": 0,
                 "Association": "Global",
                 "ParamName": "BaseColor",

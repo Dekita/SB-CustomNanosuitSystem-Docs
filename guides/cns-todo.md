@@ -1,0 +1,11 @@
+## TODO: 
+- Add support for other characters (Adam, Lily, Drone, Other?..)
+- save menu state for next load (cam position, mesh selection, list scroll, etc)
+- Make regular menu eve show cns equipped outfit?
+- Check custom skeletons and physics :)
+- Add randomizer feature? 
+- unique default icons based on equip mesh type/ sub type
+- check issues when entering/exiting the training system
+- hide default ui when cns opens? 
+- show currently equipped item?
+- ???
