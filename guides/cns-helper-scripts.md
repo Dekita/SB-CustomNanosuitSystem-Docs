@@ -18,5 +18,5 @@ The Pak Mod Audit Tool is a powerful utility designed to help modders and player
 ## Pak Chunk ID Patcher
 Scans all the mods you have installed and looks for mods that are using the same package Container ID. If it finds any duplicates, it automatically changes the numbers so each mod has its own unique ID. This way, the game no longer gets confused, and your mods can work together without crashing.
 
-[Mod Pak Chunk ID Patcher](https://www.nexusmods.com/stellarblade/mods/861) to patch mods with conflicting chunk ID's.
+[Mod Pak Chunk ID Patcher](https://www.nexusmods.com/stellarblade/mods/861) 
 
