@@ -13,6 +13,8 @@ In order for your dekcns.json file to be compatible with the CNS menu, it MUST b
         "Description": "{YourOutfitDescription}",
         "OutfitTypes": ["{OutfitType1}", "{OutfitType2}", "..."],
         "OutfitImage": "{SoftReferenceToYourOutfitIcon}",
+        "AnimationBP": "{SoftReferenceToAnimationBlueprint}",
+        "CharacterID": "EVE",
         "OutfitPaths": [
             "{SoftReferenceToYourOutfitVariation1}",
             "{SoftReferenceToYourOutfitVariation2}",
@@ -167,6 +169,33 @@ Example JSON:
 }
 ```
 NOTE: the number of elements in this array should match the number of elements in either `OutfitPaths` or `OutfitDatas` (whichever one you are using)
+
+
+## AnimationBP `string`
+A string containing the soft reference path for an animation blueprint to be applied on this mesh when it is loaded. Used for default hairstyles etc. 
+
+Example JSON: 
+```json
+{
+    "AnimationBP": "/Game/DLC_2/Art/Character/PC/00_HR/EVE_HR_Nikke_01/EVE_HR_Nikke_01_AnimBP.EVE_HR_Nikke_01_AnimBP",
+}
+```
+
+
+## CharacterID `string` [optional] (Default="EVE")
+A string containing the character for whom this outfit/mesh should be used by. 
+
+Example JSON: 
+```json
+{
+    "CharacterID": "EVE",
+}
+```
+Can be any one of the following; 
+- EVE
+- LILY
+- ADAM
+- DRONE 
 
 
 ## Combined Examples
