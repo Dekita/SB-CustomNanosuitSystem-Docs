@@ -1,6 +1,16 @@
 # CNS Changelog (for main mod files)
 Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/1496) by dekitarpg@gmail.com. 
 
+## v1.91:
+- Fixed issue with material toggles not working correctly when being "ControlledBy" another. 
+- Fixed config menu not properly reloading after clicking 'reset configuration'.
+- Fixed issue with default hairs not properly using their animations. 
+- Added `AnimationBP` to cns outfit json object, used for hairs etc. 
+- Fixed description issue for hairpin toggle in cns settings ui. 
+- Added hook to trigger refresh of outfit after resting at camp. 
+- Altered delay in between procssing button batches.
+- Disabled Button batches by default. 
+
 
 ## v1.9: 
 - Added Lily, Adam, and Drone outfit support!!
