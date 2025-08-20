@@ -1,6 +1,34 @@
 # CNS Changelog (for main mod files)
 Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/1496) by dekitarpg@gmail.com. 
 
+
+## v1.94: (unreleased)
+- Fixed issue where only EVE could have outfits using UserConfigs material toggles etc.
+- Fixed issue where outfits would have missing materials, after switching from an outfit with disabled materials. 
+- Fixed issue where hair/ponytail sub types would cause outfits save data to override one another. 
+- Preset color selection buttons will now multiply values based on vector config max vlaues. 
+- Removed `ReloadCharDataWhenRest` property from config.lua.
+- Fixed missing physics animations for all default earrings.
+- Added `PonyPhysics` property for json config.
+- Fixed ponytail physics for all default outfits.
+- Fixed physics for all default outfits.
+- Improved overall stabiliity slightly. 
+
+
+## v1.93:
+- Improved stabliity of system overall. Significantly reduced frequency of crashes. 
+- Hidden (removed) components should now re-hide on game/area load. 
+
+
+## v1.92:
+- Fixed issue causing crashes for a lot of users. If you still experience crashes when resting alter the `ReloadCharDataWhenRest` property within the `Win64/ue4ss/Mods/DekCNS/Scripts/config.lua` file. 
+- Fixed issue where camera would orbit around eve regardless of selected character.
+- Changed trigger for favourites/ui toggle/hairpin to use keydown instead of keyup. 
+- Added SAVE_Version data to ensure saved config/outfit data will only reset when save file format updates. 
+- Changed DefaultHairs file to use nier white for nier hairstyles and some nikke ones. (credit H0bbs)
+- CNS Outfit will reload when CNS UI is opened. This is to provide a quick fix for when characters outfits have reset the ones selected in the default game menu. 
+
+
 ## v1.91:
 - Fixed issue with material toggles not working correctly when being "ControlledBy" another. 
 - Fixed config menu not properly reloading after clicking 'reset configuration'.
