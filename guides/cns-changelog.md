@@ -7,6 +7,7 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 - Fixed issue where outfits would have missing materials, after switching from an outfit with disabled materials. 
 - Fixed issue where hair/ponytail sub types would cause outfits save data to override one another. 
 - Preset color selection buttons will now multiply values based on vector config max vlaues. 
+- Moved Adam, Drone, and Lily outfits into their own seperate defaults file. 
 - Removed `ReloadCharDataWhenRest` property from config.lua.
 - Fixed missing physics animations for all default earrings.
 - Added `PonyPhysics` property for json config.
