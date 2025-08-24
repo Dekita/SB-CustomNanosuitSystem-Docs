@@ -2,12 +2,18 @@
 Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/1496) by dekitarpg@gmail.com. 
 
 
-## v1.94: (unreleased)
+## v1.94: 
 - Fixed issue where only EVE could have outfits using UserConfigs material toggles etc.
 - Fixed issue where outfits would have missing materials, after switching from an outfit with disabled materials. 
 - Fixed issue where hair/ponytail sub types would cause outfits save data to override one another. 
-- Preset color selection buttons will now multiply values based on vector config max vlaues. 
+- Preset color selection buttons will now multiply values based on vector config max values. 
+- Added `HiddenMats` property for use within `OutfitDatas` to hide specific materials. 
 - Moved Adam, Drone, and Lily outfits into their own seperate defaults file. 
+- Added `LoadOutfitsWhenOpenUI` configuration property in config.lua.
+- Added `UseOutfitPhysicsFix` configuration property in config.lua. 
+- Added `EnableAllCharacters` configuration property in config.lua.
+- Added `CharacterScanMode` configuration property in config.lua.
+- Added `OutfitLoadDelay` configuration property in config.lua.
 - Removed `ReloadCharDataWhenRest` property from config.lua.
 - Fixed missing physics animations for all default earrings.
 - Added `PonyPhysics` property for json config.
