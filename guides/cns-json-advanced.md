@@ -16,6 +16,8 @@ Example JSON:
                 "/Game/Art/Character/PC/CH_P_EVE_InnerSuit/Materials/MI_EVE_Costume_Temp_Inner_Skin01.MI_EVE_Costume_Temp_Inner_Skin01",
                 "/Game/Art/Character/PC/CH_P_EVE_InnerSuit/Materials/MI_EVE_Costume_Temp_Inner_Skin02.MI_EVE_Costume_Temp_Inner_Skin02"
             ],
+            "PonyPhysics": "/Game/DLC_1/Art/Character/PC/CH_P_EVE_Nier_01/CH_P_EVE_Nier_01NS_PonytailPhysicsAsset.CH_P_EVE_Nier_01NS_PonytailPhysicsAsset",
+            "HiddenMats": [0, 1, 2],
             "Parameters": [
                 {
                     "MaterialIndex": 0,
@@ -55,6 +57,8 @@ Example JSON:
 }
 ```
 - Mesh `string` - A single soft reference string pointing to your desired skeletal mesh.
+- PonyPhysics `string` - A soft reference string pointing to the desired ponytail physics to use for this outfit.
+- HiddenMats `[number]` - An array of material index id's to set as hidden when this outfit is equipped. 
 - Materials `[string]` - An array of soft reference strings pointing to your desired materials for the skeletal mesh.
 - Parameters `[object]` - An array of objects that control material parameter scalars, vectors, and textures. 
   - MaterialIndex `integer` - The index of the material this parameter should affect.
