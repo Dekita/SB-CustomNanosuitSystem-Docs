@@ -30,6 +30,29 @@ Setting `UseOutfitCache` to false will make CNS reload all json files each time 
 The `UseVirtualCursor` option tells CNS to use a virtual cursor when the UI is opened. Setting this to `false` will disable this feature; however, there is a known issue that the default game cursor will not always display after CNS UI is opened. 
 
 
+## CharacterScanMode `Win64/ue4ss/Mods/DekCNS/Scripts/config.lua` [default=1]
+Defines the scan mode used to search for characters. Setting to 1 may help reduce system crashes, but can cause additional delay when opening ui
+0 = Caches characters when spawned. 
+1 = Searches for characters on demand. 
+
+
+## EnableAllCharacters `Win64/ue4ss/Mods/DekCNS/Scripts/config.lua` [default=true]
+Allows CNS to control outfits for all characters. Setting to false may help reduce system crashes
+true = Enable control for all characters (Adam, Eve, Lily, Drone)
+false = Enable control for only the main character (Eve)
+
+
+## LoadOutfitsWhenOpenUI `Win64/ue4ss/Mods/DekCNS/Scripts/config.lua` [default=false]
+Auto sets outfits when opening the UI. This will automatically load the last equipped outfits for the character when the UI is opened
+
+
+## UseOutfitPhysicsFix `Win64/ue4ss/Mods/DekCNS/Scripts/config.lua` [default=false]
+Enable or disable outfit physics fix. This will fix outfit cloth physics issues; however,
+- the ponytail may act funny when changing outfits/sheathing weapon
+- and outfits without proper physics assets setup will cause characters to fall through the world. 
+Enable at your own risk <3 
+
+
 ## ManualSaveFilePath `Win64/ue4ss/Mods/DekCNS/Scripts/config.lua` [default=""]
 If the game does not load your unlocked default outfits, and you do have the DEkCNS-DefaultXXXX.dekcns.json files within your `~mods/CustomNanosuitSystem` folder, then the CNS system is having some kind of issue locating your save file. You can manually set the path for this by editing the `ManualSaveFilePath` configuration. 
 
