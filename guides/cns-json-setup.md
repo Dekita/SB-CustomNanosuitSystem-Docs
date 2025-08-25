@@ -182,6 +182,17 @@ Example JSON:
 ```
 
 
+## PonyPhysics `string`
+A string containing the soft reference path for a ponytail physics asset to be applied on this mesh when it is loaded. Used for outfit meshes. 
+
+Example JSON: 
+```json
+{
+    "PonyPhysics": "/Game/DLC_1/Art/Character/PC/CH_P_EVE_Nier_01/CH_P_EVE_Nier_01NS_PonytailPhysicsAsset.CH_P_EVE_Nier_01NS_PonytailPhysicsAsset",
+}
+```
+
+
 ## CharacterID `string` [optional] (Default="EVE")
 A string containing the character for whom this outfit/mesh should be used by. 
 
