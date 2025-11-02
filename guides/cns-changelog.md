@@ -2,6 +2,17 @@
 Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/1496) by dekitarpg@gmail.com. 
 
 
+## UNRELEASED
+- Fixed crash issue when both shape keys and scalar sliders are present in UserConfigs section. 
+
+
+## v1.95:
+- Small improvements to default hairstyles (thanks to Spanksh and H0bbs)
+- Changed `ManualSaveFilePath` to use root save file path by default (helps when path includes non English characters)
+- Added new outfit (Ocean String) to default outfits for Eve.
+- Small minor improvements. 
+
+
 ## v1.94: 
 - Fixed issue where only EVE could have outfits using UserConfigs material toggles etc.
 - Fixed issue where outfits would have missing materials, after switching from an outfit with disabled materials. 
