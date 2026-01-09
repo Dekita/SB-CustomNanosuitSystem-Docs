@@ -2,8 +2,27 @@
 Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/1496) by dekitarpg@gmail.com. 
 
 
-## UNRELEASED
+## v2.0:
+- Added Expandable Animations System with over 2000 Animations. 
+  - Browse and preview default game animations and poses directly on characters.
+  - JSON driven expansion for easily adding new custom animations.
+  - Previously used animations selected when you open CNS UI. 
+  - Powerful search across animation names and file paths.
+  - Supports Adam/Eve/Lily (body and face animations).
+- Replaced Angle/Orbit camera modes with 'Free Aim Perspective' camera mode. 
+  - (use WASDQE keys to move cam, left mouse to change angle, and right mouse to control orbit)
+- Added "Presets". Selected outfits/hairs/faces etc can be saved as a preset for easy switching.
+- Slightly changed folder structure to segregate Animations/Cosmetics (usage is optional but recommended)
+- UI now remembers previously selected cam position, and light settings.
+- Camera now updates position when character moves (helpul for lily on xion platform).
+- Added "/Game/Mods/DekCNS_P/Textures/T_FoxTail" for use with ponytail mods. 
+- Improved 'favourites' (now uses its own tab, rather than being positioned at the top of the list).
 - Fixed crash issue when both shape keys and scalar sliders are present in UserConfigs section. 
+- Fixed issue where 'UI Hue' would cause weird crashes and change character outfits. 
+- Fixed drone scan lag issue when drone unavailable (limited number of scans). 
+- Fixed issue where 'reset outfit datas' would not fully reset all datas. 
+- Fixed issue where hair color would reset after eve dies. 
+- Default HUD is now hidden when CNS menu opens. 
 
 
 ## v1.95:
