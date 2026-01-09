@@ -45,7 +45,7 @@ Provides an in-game user interface that allows outfit mod creators to load custo
 - [Unreal Engine 4.26](https://www.unrealengine.com/en-US/blog/unreal-engine-4-26-released) for creating outfit mods
 - [Pak Mod Audit Tool](https://www.nexusmods.com/stellarblade/mods/1632) to audit your mod files
 - [Mod Pak Chunk ID Patcher](https://www.nexusmods.com/stellarblade/mods/861) to patch mods with conflicting chunk ID's
-
+- [CNS Mod Repacker](https://www.nexusmods.com/stellarblade/mods/1936) to convert non cns mods to cns and vice versa
 
 ## Additional Guides
 - [Stellar Blade Modding Guides](https://github.com/Stellar-Blade-Modding-Team/Stellar-Blade-Modding-Guide/wiki)
