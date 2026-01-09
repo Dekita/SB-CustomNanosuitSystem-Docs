@@ -66,5 +66,3 @@ If you're in a position to support the project, thank you - it truely means a lo
 [![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-0070BA?logo=paypal&style=for-the-badge)](https://www.paypal.me/DekitaRPG)
 
 </div>
-
-
