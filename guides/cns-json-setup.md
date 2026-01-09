@@ -24,7 +24,7 @@ In order for your dekcns.json file to be compatible with the CNS menu, it MUST b
 ]
 ```
 
-Simply paste this json into a file named "MyAwesomeOutfit.dekcns.json", add it to your Stellar Blade installations Content/Paks/~mods folder. Once you configure the options, it should be displayed within the CNS interface. 
+Simply paste this json into a file named "MyAwesomeOutfit.dekcns.json", add it to your Stellar Blade installations Content/Paks/~mods/CustomNanosuitSystem/Cosmetics folder. Once you configure the options, it should be displayed within the CNS interface. 
 
 :exclamation: Remember to configure your json properly before loading the interface in game!
 
