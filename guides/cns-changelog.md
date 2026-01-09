@@ -16,7 +16,7 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 - UI now remembers previously selected cam position, and light settings.
 - Camera now updates position when character moves (helpul for lily on xion platform).
 - Added "/Game/Mods/DekCNS_P/Textures/T_FoxTail" for use with ponytail mods. 
-- Improved 'favourites' (now uses its own tab, rather than being positioned at the top of the list).
+- Improved 'favorites' (now uses its own tab, rather than being positioned at the top of the list).
 - Fixed crash issue when both shape keys and scalar sliders are present in UserConfigs section. 
 - Fixed issue where 'UI Hue' would cause weird crashes and change character outfits. 
 - Fixed drone scan lag issue when drone unavailable (limited number of scans). 
