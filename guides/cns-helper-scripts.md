@@ -20,3 +20,8 @@ Scans all the mods you have installed and looks for mods that are using the same
 
 [Mod Pak Chunk ID Patcher](https://www.nexusmods.com/stellarblade/mods/861) 
 
+
+## CNS Mod Repacker Tool
+Make almost any mod CNS compatible or convert a CNS mod to a regular replacer style mod.
+
+[CNS Mod Repacker](https://www.nexusmods.com/stellarblade/mods/1936) 
