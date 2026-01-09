@@ -31,17 +31,33 @@ When installation is complete, you should have the following structure within yo
           - DekCNS
             - enabled.txt
             - Scripts/
+              - config.lua
               - json.lua
               - main.lua
   - Content/
     - Paks/
       - ~mods/
         - CustomNanosuitSystem
-          - DekCNS-SkinSuit.pak
-          - DekCNS-SkinSuit.ucas
-          - DekCNS-SkinSuit.utoc
-          - DekCNS-Defaults.dekcns.json
-          - DekCNS-Skinsuit.dekcns.json
+          - Animations/
+            - DekCNS-AnimationsADAM.dekani.json
+            - DekCNS-AnimationsEVE.dekani.json
+            - DekCNS-AnimationsLILY.dekani.json
+            - {Other Animation Mods Go Here..}
+          - Cosmetics/
+            - DekCNS-DefaultAccessories.dekcns.json
+            - DekCNS-DefaultEarings.dekcns.json
+            - DekCNS-DefaultFaces.dekcns.json
+            - DekCNS-DefaultHairs.dekcns.json
+            - DekCNS-DefaultOutfitsAdam.dekcns.json
+            - DekCNS-DefaultOutfitsDrone.dekcns.json
+            - DekCNS-DefaultOutfitsEve.dekcns.json
+            - DekCNS-DefaultOutfitsLily.dekcns.json
+            - DekCNS-DefaultWeaponsTest.dekcns.json
+            - {Other Cosmetic Mods Go Here.. eg:}
+            - DekCNS-Skinsuit.dekcns.json
+            - DekCNS-SkinSuit.pak
+            - DekCNS-SkinSuit.ucas
+            - DekCNS-SkinSuit.utoc
       - LogicMods/
         - DekCNS_P.pak
         - DekCNS_P.ucas
