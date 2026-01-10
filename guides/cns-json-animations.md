@@ -61,6 +61,25 @@ Can be any one of the following;
 - Face
 
 
+## AniFilePath `string` [reqiured]
+A soft reference string pointing to your desired AnimationSequence file within the games animation files. For adding custom Animations, you should use a completely custom path, such as the one shown below;
+
+Custom Animation Example JSON: 
+```json
+{
+    "AniFilePath": "/Game/AnimationMods/Character/PC/CH_P_EVE_01/Animation/Proto_Walk.Proto_Walk",
+}
+```
+
+Default Animation Example JSON: 
+```json
+{
+    "AniFilePath": "/Game/Art/Character/PC/CH_P_EVE_01/Animation/Proto_Walk.Proto_Walk",
+}
+```
+
+
+
 ## UniqueAniID `string` [optional] (Default=AniFilePath)
 Should be a completely unique identifier for each animation. It is recommended to set this string to contain your username and mod name, to ensure that it will always be unique. 
 
