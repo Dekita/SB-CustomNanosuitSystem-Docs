@@ -56,10 +56,11 @@ Enable at your own risk <3
 ## ManualSaveFilePath `Win64/ue4ss/Mods/DekCNS/Scripts/config.lua` [default=""]
 If the game does not load your unlocked default outfits, and you do have the DEkCNS-DefaultXXXX.dekcns.json files within your `~mods/CustomNanosuitSystem` folder, then the CNS system is having some kind of issue locating your save file. You can manually set the path for this by editing the `ManualSaveFilePath` configuration. 
 
-Entering `%appdata%/../Local/SB/Saved/SaveGames` in Windows Explorer directory path bar, then pressing enter, will take you to the directory where you can find your save file. It should look something like this;
+Entering `%appdata%/../Local/SB/Saved/SaveGames` in Windows Explorer directory path bar, then pressing enter, will take you to the directory where you can find your save file. It should look something like this; C:/Users/YuuugiiiOhhh/AppData/Local/SB/Saved/SaveGames/13545341/StellarBladeSave00.sav
 
+Enter the last part of the path as the ManualSaveFilePath string, eg;
 ```lua
-local ManualSaveFilePath = "C:/Users/YuuugiiiOhhh/AppData/Local/SB/Saved/SaveGames/13545341/StellarBladeSave00.sav" 
+local ManualSaveFilePath = "13545341/StellarBladeSave00.sav" 
 ```
 
 Note: the save file path should always end with `StellarBladeSave00.sav`, as this points the system directly to your save file. 
