@@ -2,6 +2,24 @@
 Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/1496) by dekitarpg@gmail.com. 
 
 
+## v2.1: 
+- Changed animations so they are no longer automatically applied by default (configurable)
+- Added configurable hotkey for taking screenshots while in CNS UI (default=P)
+- Added settings for SDR/HDR screenshots, resolution, and console variables
+  ^- console variables customizable from txt files in Win64/ue4ss/DekCNS/ScreenshotConsoleVariables
+- Added animation setting to automatically apply previously selected animations
+- Added alphabetical sorting for presets (based on their display name)
+- Added configuration to config.lua for camera movement keys
+- Added setting to disable CNS watermark when ui is hidden
+- Added setting to automatically open CNS at presets page
+- Added setting to make favourites tab first in the list
+- Fixed issue where preset buttons 'delete' icon would be shown
+- Fixed missing descriptions when hovering new UI elements
+- Fixed CNS mouse cursor is now hidden when UI is hidden 
+- Fixed issue where animations couldnt be favourited
+- Fixed missing scrollbar in outfit presets page
+
+
 ## v2.0:
 - Added Expandable Animations System with over 2000 Animations. 
   - Browse and preview default game animations and poses directly on characters.
