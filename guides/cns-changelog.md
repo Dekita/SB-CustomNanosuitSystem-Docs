@@ -16,6 +16,7 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 - Fixed issue where preset buttons 'delete' icon would be shown
 - Fixed missing descriptions when hovering new UI elements
 - Fixed CNS mouse cursor is now hidden when UI is hidden 
+- Fixed issue with default hair file (credit to H0bbs)
 - Fixed issue where animations couldnt be favourited
 - Fixed missing scrollbar in outfit presets page
 
