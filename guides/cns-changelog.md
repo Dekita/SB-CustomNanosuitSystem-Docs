@@ -5,6 +5,8 @@ Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mo
 ## v2.1: 
 - Changed animations so they are no longer automatically applied by default (configurable)
 - Added configurable hotkey for taking screenshots while in CNS UI (default=P)
+  ^- default configuration will move SDR/PNG screenshots from appdata folder to StellarBlade/SB/ScreenshotsCNS folder
+  ^- you may see a notice stating the file has been saved in appdata, but it will automatically be moved. doesnt affect HDR screenshots as those are already saved to the ScreenshotsCNS folder. 
 - Added settings for SDR/HDR screenshots, resolution, and console variables
   ^- console variables customizable from txt files in Win64/ue4ss/DekCNS/ScreenshotConsoleVariables
 - Added animation setting to automatically apply previously selected animations
