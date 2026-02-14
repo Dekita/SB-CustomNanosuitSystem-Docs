@@ -2,6 +2,17 @@
 Changelog for [Custom Nanosuit System](https://www.nexusmods.com/stellarblade/mods/1496) by dekitarpg@gmail.com. 
 
 
+## v2.2: 
+- Fixed categories for default ponytails (were wrongly categorized as custom)
+- Fixed issue where config toggles would always show as off (even when on) 
+- Change HideHairpin logic (hopefully fixing issue where it causes disapearing weapon in boss fights)
+- Added options to allow inverted camera controls (seperate options for horizontal and vertical) 
+- Added animation playback speed options
+
+(for use by randomization add-ons)
+- Added SelectNanosuitPreset, SelectNanosuitPresetByName, and GetNanosuitPresetNames functions to ModActor 
+- GetNanosuitPresetNames returns an array of strings for all presets, in the format `{CharacerID}-|-{PresetName}`
+
 ## v2.1: 
 - Changed animations so they are no longer automatically applied by default (configurable)
 - Added configurable hotkey for taking screenshots while in CNS UI (default=P)
